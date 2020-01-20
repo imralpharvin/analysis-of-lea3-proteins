@@ -1,0 +1,1345 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.0.2 (Release date: Thu Aug 30 14:26:08 2018 -0700)
+
+For further information on how to interpret please access http://meme-suite.org/.
+To get a copy of the MEME software please access http://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= fasta/motif1width14scorecut.fasta
+CONTROL SEQUENCES= --none--
+ALPHABET= ACDEFGHIKLMNPQRSTVWY
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+406960                   1.0000    104  422367                   1.0000    140  
+170725                   1.0000    821  evm.model.supercontig_9. 1.0000    100  
+evm.model.supercontig_25 1.0000     99  evm.model.supercontig_39 1.0000    119  
+evm.model.supercontig_24 1.0000     84  evm.model.supercontig_20 1.0000    105  
+evm.model.supercontig_13 1.0000    822  evm.model.supercontig_16 1.0000    104  
+28152.m000891            1.0000    126  29726.m004064            1.0000     97  
+29308.m000187            1.0000     91  30063.m001427            1.0000     63  
+30073.m002221            1.0000    133  29986.m001632            1.0000     95  
+29633.m000895            1.0000    817  Cucsa.093870.1           1.0000    114  
+Cucsa.097030.1           1.0000    115  Cucsa.097040.1           1.0000     70  
+Cucsa.114640.1           1.0000    102  Cucsa.129070.1           1.0000    131  
+Cucsa.205500.1           1.0000    106  Cucsa.219260.1           1.0000     94  
+Cucsa.156180.1           1.0000    879  Cucsa.359830.1           1.0000     94  
+GSVIVT01028033001        1.0000     98  GSVIVT01037872001        1.0000    108  
+GSVIVT01030233001        1.0000    593  GSVIVT01024455001        1.0000    114  
+GSVIVT01037873001        1.0000    103  GSVIVT01003968001        1.0000    818  
+GSVIVT01037871001        1.0000    158  orange1.1g047273m        1.0000    103  
+orange1.1g034332m        1.0000     98  orange1.1g034497m        1.0000     94  
+orange1.1g040851m        1.0000     79  orange1.1g034308m        1.0000     99  
+orange1.1g033279m        1.0000    124  orange1.1g041794m        1.0000    790  
+AT5G17165.1              1.0000    117  AT3G03150.1              1.0000    122  
+AT4G02380.1              1.0000     98  AT3G19550.1              1.0000    111  
+AT3G53770.1              1.0000    125  AT1G49590.1              1.0000    243  
+AT4G15910.1              1.0000    105  AT1G73120.1              1.0000    110  
+AT3G01720.1              1.0000    803  AT1G02820.1              1.0000     92  
+Thhalv10010830m          1.0000    119  Thhalv10029091m          1.0000     95  
+Thhalv10021914m          1.0000    114  Thhalv10017419m          1.0000    127  
+Thhalv10009185m          1.0000     98  Thhalv10019346m          1.0000    110  
+Thhalv10026659m          1.0000     98  Thhalv10001120m          1.0000     91  
+Thhalv10011741m          1.0000    245  Thhalv10021768m          1.0000    126  
+Thhalv10020079m          1.0000    819  Thhalv10021904m          1.0000     82  
+Ciclev10023029m          1.0000     99  Ciclev10027008m          1.0000    108  
+Ciclev10027457m          1.0000     67  Ciclev10013115m          1.0000    124  
+Ciclev10026853m          1.0000     91  Ciclev10014283m          1.0000    824  
+Ciclev10029838m          1.0000    156  Ciclev10026814m          1.0000    108  
+Ciclev10006308m          1.0000     98  Carubv10014932m          1.0000    124  
+Carubv10014963m          1.0000    114  Carubv10002338m          1.0000     95  
+Carubv10021185m          1.0000    110  Carubv10006078m          1.0000    108  
+Carubv10019274m          1.0000    129  Carubv10010737m          1.0000     98  
+Carubv10012992m          1.0000    818  Carubv10010124m          1.0000    246  
+Carubv10002246m          1.0000    133  Carubv10027632m          1.0000    718  
+MDP0000324831            1.0000    134  MDP0000296095            1.0000    126  
+MDP0000808464            1.0000     97  MDP0000296346            1.0000    126  
+MDP0000134282            1.0000    836  MDP0000755567            1.0000    103  
+MDP0000130837            1.0000    133  MDP0000385497            1.0000     94  
+MDP0000564193            1.0000    103  MDP0000299069            1.0000    143  
+Lus10008169              1.0000     82  Lus10022961              1.0000     97  
+Lus10029634              1.0000     90  Lus10002115              1.0000     62  
+Lus10027987              1.0000     84  Lus10027986              1.0000     94  
+Lus10008170              1.0000     91  Lus10042672              1.0000     90  
+Lus10013901              1.0000    116  Lus10008759              1.0000    131  
+Lus10002114              1.0000     62  Lus10014878              1.0000    812  
+Lus10013900              1.0000    110  Lus10022320              1.0000    812  
+Lus10037497              1.0000    110  Lus10002135              1.0000    122  
+Lus10006508              1.0000     94  Potri.001G296900.1       1.0000    111  
+Potri.010G248600.1       1.0000    120  Potri.001G336400.1       1.0000    805  
+Potri.T154700.1          1.0000    117  Potri.014G127700.1       1.0000     93  
+Potri.002G203500.1       1.0000     92  Potri.010G012100.1       1.0000    108  
+Potri.009G091100.1       1.0000    132  Potri.003G072000.1       1.0000     91  
+Potri.013G081700.1       1.0000    128  Gorai.013G049200.1       1.0000    108  
+Gorai.004G052200.1       1.0000     93  Gorai.011G191500.1       1.0000    106  
+Gorai.002G009800.1       1.0000    121  Gorai.004G090700.1       1.0000    121  
+Gorai.003G051000.1       1.0000    127  Gorai.004G142600.1       1.0000     99  
+Gorai.010G173500.1       1.0000     88  Gorai.009G122800.1       1.0000     94  
+Gorai.006G037200.1       1.0000    824  Gorai.004G090800.1       1.0000    101  
+mrna28017.1-v1.0-hybrid  1.0000   1432  mrna05456.1-v1.0-hybrid  1.0000    124  
+mrna16573.1-v1.0-hybrid  1.0000    331  mrna15876.1-v1.0-hybrid  1.0000    100  
+mrna12618.1-v1.0-hybrid  1.0000    130  mrna10617.1-v1.0-hybrid  1.0000     98  
+mrna25582.1-v1.0-hybrid  1.0000    128  mrna06837.1-v1.0-hybrid  1.0000     97  
+27364                    1.0000    543  99702                    1.0000   1139  
+Thecc1EG007188t1         1.0000    111  Thecc1EG029240t1         1.0000     86  
+Thecc1EG025370t1         1.0000    144  Thecc1EG027481t1         1.0000    490  
+Thecc1EG004676t1         1.0000     95  Thecc1EG021234t1         1.0000    105  
+Thecc1EG017059t1         1.0000    821  Thecc1EG016756t1         1.0000     86  
+Medtr8g022990.1          1.0000     98  Medtr4g120040.1          1.0000    104  
+Medtr5g005180.1          1.0000    100  Medtr1g088230.1          1.0000     95  
+Medtr7g108745.1          1.0000     98  Medtr6g022320.1          1.0000    973  
+Medtr5g008210.1          1.0000    132  Medtr7g108735.1          1.0000    100  
+Spipo0G0115200           1.0000    131  Spipo0G0181200           1.0000    116  
+Spipo0G0034500           1.0000     87  Spipo12G0032500          1.0000    922  
+Spipo2G0096000           1.0000     79  Spipo13G0039500          1.0000    179  
+evm_27.model.AmTr_v1.0_s 1.0000    106  evm_27.model.AmTr_v1.0_s 1.0000     95  
+evm_27.model.AmTr_v1.0_s 1.0000     99  evm_27.model.AmTr_v1.0_s 1.0000   1380  
+evm_27.model.AmTr_v1.0_s 1.0000     97  Pahal.J01851.1           1.0000    100  
+Pahal.E03496.1           1.0000    301  Pahal.E00451.1           1.0000    834  
+Pahal.C03304.1           1.0000     97  Pahal.G02159.1           1.0000    120  
+Pahal.E03121.1           1.0000     96  Pahal.E03122.1           1.0000    100  
+Pahal.A02181.1           1.0000     88  Pahal.C04115.1           1.0000    101  
+Pahal.J01012.1           1.0000    165  Pahal.B00630.1           1.0000     93  
+Pahal.F01830.1           1.0000     97  AHYPO_007836-RA          1.0000     95  
+AHYPO_019482-RA          1.0000    733  AHYPO_009388-RA          1.0000    126  
+AHYPO_009876-RA          1.0000     97  AHYPO_009391-RA          1.0000    132  
+AHYPO_011028-RA          1.0000    825  AHYPO_022193-RA          1.0000     99  
+Aco002475.1              1.0000    101  Aco001848.1              1.0000     99  
+Aco015985.1              1.0000     91  Aco023812.1              1.0000    151  
+Aco009514.1              1.0000     84  Aco009513.1              1.0000     61  
+Aco000096.1              1.0000    142  Aco017273.1              1.0000    144  
+Aco017275.1              1.0000    146  LOC_Os04g50970.1         1.0000    120  
+LOC_Os12g14580.1         1.0000    311  LOC_Os03g28260.1         1.0000    146  
+LOC_Os01g21250.1         1.0000     94  LOC_Os06g02410.1         1.0000    157  
+LOC_Os01g67750.1         1.0000    815  LOC_Os08g34990.1         1.0000    106  
+LOC_Os03g42850.1         1.0000     94  LOC_Os05g29930.1         1.0000     97  
+LOC_Os02g35650.1         1.0000     92  LOC_Os12g32290.1         1.0000    100  
+Zosma29g01580.1          1.0000    104  Zosma31g00380.1          1.0000    120  
+AL2G32870.t1             1.0000    110  AL6G28210.t1             1.0000    121  
+AL6G50740.t1             1.0000     95  AL1G56960.t2             1.0000    259  
+AL3G12760.t1             1.0000    121  AL3G10420.t1             1.0000    800  
+AL7G39360.t1             1.0000    105  AL1G12210.t1             1.0000     98  
+AL3G32960.t1             1.0000     76  AL5G34750.t1             1.0000    121  
+Tp57577_TGAC_v2_mRNA7764 1.0000    837  Tp57577_TGAC_v2_mRNA3923 1.0000    123  
+Tp57577_TGAC_v2_mRNA4114 1.0000     98  Tp57577_TGAC_v2_mRNA9964 1.0000     98  
+Tp57577_TGAC_v2_mRNA2669 1.0000     70  Tp57577_TGAC_v2_mRNA8606 1.0000    100  
+Tp57577_TGAC_v2_mRNA3510 1.0000     97  Tp57577_TGAC_v2_mRNA2290 1.0000     73  
+Oropetium_20150105_19777 1.0000    488  Oropetium_20150105_02499 1.0000     90  
+Oropetium_20150105_16922 1.0000    166  Oropetium_20150105_09731 1.0000     98  
+Oropetium_20150105_02166 1.0000    101  Oropetium_20150105_18990 1.0000    476  
+Oropetium_20150105_05324 1.0000     84  Oropetium_20150105_01571 1.0000    121  
+Oropetium_20150105_24186 1.0000    154  DCAR_010550              1.0000    123  
+DCAR_005789              1.0000     94  DCAR_002964              1.0000    823  
+DCAR_005788              1.0000     94  DCAR_003609              1.0000     73  
+DCAR_001674              1.0000     63  DCAR_018327              1.0000     83  
+DCAR_003105              1.0000    185  DCAR_001679              1.0000    118  
+Solyc05g008260.2.1       1.0000    912  Solyc01g107280.2.1       1.0000    111  
+Solyc06g068660.2.1       1.0000    104  Solyc06g009140.2.1       1.0000     95  
+Solyc06g072840.2.1       1.0000    110  Solyc08g074720.2.1       1.0000    102  
+Solyc09g075210.2.1       1.0000     98  Solyc03g096840.2.1       1.0000    126  
+Bol006052                1.0000     95  Bol040777                1.0000     99  
+Bol030669                1.0000     95  Bol026294                1.0000    111  
+Bol010728                1.0000    806  Bol031020                1.0000    111  
+Bol018109                1.0000    111  Bol016554                1.0000     75  
+Bol034834                1.0000    112  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme -o memeoutputs/2meme3motif1 fasta/motif1width14scorecut.fasta 
+
+model:  mod=         zoops    nmotifs=         1    evt=           inf
+objective function:           em=       E-value of product of p-values
+                              starts=   E-value of product of p-values
+width:  minw=            8    maxw=           50
+nsites: minsites=        2    maxsites=      261    wnsites=       0.8
+theta:  spmap=         pam    spfuzz=        120
+em:     prior=       megap    b=          272790    maxiter=        50
+        distance=    1e-05
+trim:   wg=             11    ws=              1    endgaps=       yes
+data:   n=           54889    N=             261
+sample: seed=            0    hsfrac=          0
+        searchsize=  54889    norand=         no    csites=       1000
+Dirichlet mixture priors file: prior30.plib
+Letter frequencies in dataset:
+A 0.0895 C 0.0131 D 0.0547 E 0.0599 F 0.0336 G 0.0728 H 0.0319 I 0.0436 K 0.0619 
+L 0.0757 M 0.0263 N 0.0394 P 0.0621 Q 0.0251 R 0.0609 S 0.0789 T 0.0506 V 0.0645 
+W 0.0216 Y 0.0338 
+Background letter frequencies (from file dataset with add-one prior applied):
+A 0.0895 C 0.0131 D 0.0547 E 0.0599 F 0.0336 G 0.0728 H 0.032 I 0.0436 K 0.0619 
+L 0.0757 M 0.0263 N 0.0394 P 0.0621 Q 0.0251 R 0.0609 S 0.0789 T 0.0506 V 0.0645 
+W 0.0216 Y 0.0338 
+Background model order: 0
+********************************************************************************
+
+
+********************************************************************************
+MOTIF SWVPDPRTGYYRPENHEKEID MEME-1	width =  21  sites = 232  llr = 7571  E-value = 3.6e-2344
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif SWVPDPRTGYYRPENHEKEID MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  1:1::::::::::2::21111
+pos.-specific     C  :::::::::1:::::::::::
+probability       D  ::::6::::::::::::11:5
+matrix            E  :::::1:::::::4:1313:1
+                  F  1::::::::121::::1::::
+                  G  ::1:::::a::2::31:1:1:
+                  H  ::::4::::::::::2:::::
+                  I  ::1::::::3:1:::::::3:
+                  K  ::::::2::::::2:::2:::
+                  L  :::::::::::::::::::1:
+                  M  ::2::::::::::::::::2:
+                  N  :::::::::1::::3::1:::
+                  P  1::8:9::::::a::::::::
+                  Q  ::::::1::::::::1:::::
+                  R  :::1::3::::3:::1:1:::
+                  S  3:1::::1:::::11:111::
+                  T  :::::::9::::::1::::::
+                  V  ::5:::2::2:1:::1::31:
+                  W  :a::::::::1::::::1:::
+                  Y  2::::::::361:::::::::
+
+         bits    6.3                      
+                 5.6  *                   
+                 5.0  *                   
+                 4.4  *                   
+Relative         3.8  *     ** * *        
+Entropy          3.1  * *** ** * *        
+(47.1 bits)      2.5  * *** ** * *        
+                 1.9  ***** **** * *     *
+                 1.3 ***************   ***
+                 0.6 *********************
+                 0.0 ---------------------
+
+Multilevel           SWVPDPRTGYYRPENXEXEID
+consensus                H K  IF   G A VM 
+sequence                   V  V           
+                                          
+                                          
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif SWVPDPRTGYYRPENHEKEID MEME-1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value                    Site       
+-------------             ----- ---------            ---------------------
+Solyc09g075210.2.1           61  2.23e-23 QKSGEESVKT SWVPDPVTGYYRPEGQANEID AAELRKMLLK
+Solyc06g009140.2.1           58  1.44e-22 RSNVMESNKT SWVPDPVTGYYRPETHAKEID AAELRNMLLK
+evm.model.supercontig_20     58  1.44e-22 KSKVEAQTTS SWVPHPRTGIYFPKGHEWVMD DVPATAASFP
+MDP0000299069                83  1.27e-21 GSNSSSSWRC SWVPHPKTGIYVPKGHEKVMD DVPKGAASFN
+Cucsa.205500.1               72  1.63e-21 EEKVGTTEKV SWVPDPVTGYYRPENRSDEID VAELRSILLK
+mrna25582.1-v1.0-hybrid      67  2.68e-21 EMESPSTWSS SWVPDPRTGIYFPKGHERVMD DIPKGAASLN
+29986.m001632                63  3.41e-21 EEVVGSTEKV SWVPDPRTGFYRPENVAKEID AAELRAMLLK
+evm_27.model.AmTr_v1.0_s     51  4.33e-21 WVLEGGYGGS CWVPHPRTGIYYPKGHEKVME DVPYGASTFE
+evm.model.supercontig_24     44  6.93e-21 KRNCGGGESS SWVPHPRTGIYYPQGHEKVME DVPAAAAKDF
+AL6G50740.t1                 61  8.72e-21 KGVEESTQKI SWVPDPKTGYYRPETGSNEID AAELRAALLN
+Carubv10002338m              61  8.72e-21 KGVEESTQKI SWVPDPKTGYYRPETGSNEID AAELRAALLN
+Thhalv10029091m              61  8.72e-21 KGAEESNQKI SWVPDPKTGYYRPETGSNEID PAELRAALLN
+AT4G02380.1                  64  8.72e-21 KGVEESTQKI SWVPDPKTGYYRPETGSNEID AAELRAALLN
+Gorai.004G090800.1           68  1.09e-20 DMSGGAKEKV SWVPDPVTGCYRPENCPNEID VAELRSMLLK
+Gorai.004G052200.1           60  1.09e-20 QAREETKEKV SWVPDPVTGCYRPENCGNEID VAELRAVLLK
+Thecc1EG004676t1             62  1.37e-20 EEMAGAKEKV SWVPDPVTGFYRPENTAKEID VAELRAMLLK
+Cucsa.097040.1               35  1.37e-20 LRIGREKKAV SWVPDPVTGYYRPENCGAEMD AADLRAMLLN
+28152.m000891                67  1.37e-20 HEGKMNYNSS CWVPHPRTGIYVPKGHERVMD DVPEGAASFN
+Potri.002G203500.1           59  2.13e-20 EEVTKTTEKI SWVPDPRTGFYRPENVAQEID AAELRATLLK
+Potri.001G296900.1           49  2.13e-20 GNSVKCSKMG DWVPHPRTGIYFPKGHEWVMD DVPENAASFS
+Gorai.004G090700.1           68  3.27e-20 EMSGGAKEKV SWVPDPVTGCYRPENCANETD VAELRATLLK
+Spipo2G0096000               30  4.04e-20 REPGGAAGSS PWVPHPRTGIYYPKGQEWVME DVTGGAATLR
+GSVIVT01037873001            54  4.04e-20 ADNKGDGSSS SWVPHPRTGIYFPKGHDHVID DVPDGAACFG
+Solyc08g074720.2.1           65  4.98e-20 GDEDQSPPKS PWVPHPVTGYYRPENQADMID PVELRQMLLK
+MDP0000130837                73  4.98e-20 GSNSSSSWRC NWVPHPRTGIYVPKGHEKVMD DVPKGAASLN
+GSVIVT01028033001            64  4.98e-20 EMKGRASETS PWVPDPVTGYYRPENEAKQID VAELRQTLLK
+evm.model.supercontig_9.     66  6.13e-20 EESARSTEKV SWVPDPKTGYYRPDNGTKEID PAELRATLLN
+AHYPO_009876-RA              60  7.53e-20 QEEIGRSAEN SWIPDPVTGYYRPANRAAEID VAELREMLLK
+AHYPO_007836-RA              58  7.53e-20 KEDIERSVEK SWIPDPVTGYYRPANRAAEID VAELREILLK
+Gorai.013G049200.1           49  7.53e-20 KSNNDIKGSS SWVPHPKSGIYFPKGHEWVMD DVPDRAASFS
+Bol016554                    41  9.22e-20 KGVEESNKKI SWIPDPKTGYYRPETGSNEID PAELRAALLD
+Aco000096.1                  63  1.67e-19 GGAKCTAESA LWVPHPRTGIYYPKGHEWVME DVPQGASSFP
+mrna06837.1-v1.0-hybrid      60  1.67e-19 KVGMKEESSS AWAPDPRTGYYRPANRADEID PVELRQMLLN
+MDP0000324831                99  1.67e-19 EESGLGAPSS AWAPDPRTGYYRPANRADEID PVGLREMLLN
+GSVIVT01037872001            54  2.03e-19 ADHKGDGSSS SWVPHPRTGIYFPEGHDHMMD DVPDGAACFG
+Medtr5g005180.1              62  2.46e-19 VVDSTSSYSS CWVPHPRTGIYFPVGHEWVME DVPDGAATFS
+mrna10617.1-v1.0-hybrid      65  2.46e-19 EDKVGSVFKV SWVPNPKTGVYGPENRADEID VAELRNALLK
+AL1G12210.t1                 64  4.34e-19 NVGEASSEKA PWVPDPKTGYYRPETVSEEID PAELRAVLLN
+Lus10008170                  58  4.34e-19 VKKTGEEGKQ SWVPDPKTGFYRPDNGAEEID AAELRAILLK
+Lus10027986                  61  4.34e-19 TVDETAADRQ SWVPDPKTGFYRPDNVAEEID AAELRAILLK
+Thhalv10009185m              64  4.34e-19 NVGQESSEKA PWVPDPKTGYYRPETVSEEID PAELRAVLLN
+AT1G02820.1                  58  4.34e-19 RAGEASSEKA PWVPDPKTGYYRPETVSEEID PAELRAILLN
+Bol006052                    61  5.22e-19 GVEESNQKIA AWIPDPKTGYYRPETGSNEID PAELRAALLN
+LOC_Os01g21250.1             55  5.22e-19 TMAKAAEEKT AWVPDPVTGYYRPAGGAKEVD AAELRAKLLS
+Bol030669                    61  6.27e-19 KGVEESTQKI AWIPDPKTGYYRPETGSKEID PAELRAALLN
+MDP0000564193                70  6.27e-19 EEKVXSTSKV SWVPDPKTGVYGPENGAEKID AAELRAALLK
+MDP0000385497                61  6.27e-19 EEKVGSTSKV SWVPDPKTGVYGPENGAEKID AAELRAALLK
+29726.m004064                61  6.27e-19 AIKEDSGACS AWAPDPVTGYYRPANRAAEID PAELRETLLN
+GSVIVT01037871001            54  7.53e-19 ADHKGDGSSS SWVPHPRTGIYFPKGHDHMMD DVPDGAACFG
+Pahal.E03121.1               60  1.08e-18 AAASAPAEKT PWVPDPVTGYYRPAGGAKEVD AVDLRAVLLP
+Potri.009G091100.1           72  1.08e-18 RNSIKESKME DWAPHPRTGIYVPKGHEKVMD DVPEKAASLN
+mrna15876.1-v1.0-hybrid      63  1.29e-18 GMGSENDGNI SWVPHERTGIYYPKGQEKVMN EISPAAGRDM
+Potri.014G127700.1           60  1.29e-18 EEVGKSTEKT SWVPDPRTGFYRPGNVAEEID EAGLRASLLK
+AL3G32960.t1                 22  1.53e-18 HNLNCGGKEE SWVPHPRTGIFFPPGQESVME DVPNGAASFN
+Gorai.011G191500.1           69  1.53e-18 SSSETRAYSS AWAPDPVTGYYRPENCGAEID AAELREMLLN
+Carubv10010737m              64  1.53e-18 KIVEASSDKA PWVPDPKTGYYRPETASEEID PAELRAVLLN
+AT3G19550.1                  57  1.53e-18 HNLKFSGEEE SWVPHPRTGIFFPPGQESVME DVPNGAASFD
+Carubv10006078m              70  1.82e-18 RGALDQEAES AWGPDPVTGYYRPSNRADEID PAELRELLLK
+Thecc1EG027481t1            453  2.17e-18 KSTGGHHDGS CWVPHDRTGIYYPKGQEKVMA DVPAAAGRDT
+Gorai.009G122800.1           54  2.17e-18 KKRSSMEGSC CWVPHDRTGIYYPKGQEKVMA DVPAPAAKDT
+Lus10022961                  50  2.17e-18 ARSKGGCTCS CWVPDDKTGIYYPKGQEKVME GIPVGAAKYA
+evm_27.model.AmTr_v1.0_s     68  2.57e-18 KNSSNKGSKS SWMPDPVTGYYVPEDHFGETD VAQLREELLN
+LOC_Os12g32290.1             40  3.05e-18 PSEARSAETA LWVPHPRTGIYYPKGFEWVME DVPSSAASFR
+Pahal.C04115.1               40  3.05e-18 PAEVRSAETS LWVPHPRTGIYYPKGFEWVME DVPSGAASFQ
+Ciclev10023029m              65  3.05e-18 EEMTGSSEKV SWVPDPVTGVYRPENLANELD GADLRAMFLK
+orange1.1g034308m            65  3.05e-18 EEMTGSSEKV SWVPDPVTGVYRPENLANELD GADLRAMFLK
+AL7G39360.t1                 68  3.60e-18 QRALDQEVES AWGPDPVTGYYRPSNRAAEID PAELRELLLK
+Thecc1EG021234t1             68  3.60e-18 VMKEESGAST AWAPDPVTGYYRPENCLAEID AAGLREMLLN
+Thecc1EG007188t1             50  3.60e-18 TKNKDIKDSP SWVPHPKSGIYFPKGHEWVMN DVPDDAASLG
+mrna05456.1-v1.0-hybrid      64  3.60e-18 LADNQEKKQV FWMRDPKTGNWIPENHFEDID AAELREKLLN
+Lus10002114                   1  3.60e-18          . MWVPDPRTGIYFPRGQEWVME DVPDNAALFG
+Lus10013901                  55  3.60e-18 ESAAAPAAYA MWVPDPRTGIYFPRGQEWVME DVPDNAARFG
+Lus10002115                   1  3.60e-18          . MWVPDPRTGIYFPRGQEWVME DVPDNAALFG
+Thhalv10026659m              61  3.60e-18 EQRANQEAES AWAPDPVTGYYRPSNRTDEID PAELREMLLK
+AT4G15910.1                  68  3.60e-18 QRGLDQEAES AWGPDPVTGYYRPSNRAAEID PAELRELLLK
+30063.m001427                19  3.60e-18 KKKRNTGEGN CWIPDERTGIYYPKGQEKVME SIPPKAAKDL
+MDP0000755567                70  4.26e-18 EEKVGSTFKV SWVPDPKTGVYGPENGTAKID AAELRAALLK
+Oropetium_20150105_24186     94  5.02e-18 PAEVRSAEAA LWVPHPRTGIYYPKGSEWVME DVPSGAASFR
+Spipo0G0181200               81  5.02e-18 ATATAPAPSS SWVPDPATGYYRPANGAPDID AADLRRKLLS
+Gorai.002G009800.1           57  5.02e-18 NSSNDIKDSW CWVPHPKSGIYFPEGHEWVMK DVPEGAASLN
+Bol031020                    58  5.92e-18 RVEINCGGEE EWVPHPRTGIFFPPGQESVMD GVPEGAASFD
+Lus10013900                  67  5.92e-18 MESYTKTKTS CWVPDPRTGIYFPVGHEVVME GIPEKAARLG
+Thhalv10021914m              61  5.92e-18 RVETNCGGEE EWVPHPRTGIFFPPGQESVMD GVPDGAASFD
+Pahal.E03122.1               65  6.96e-18 TAAAAAEEKT AWVPDPATGYYRPAGGAKEVD AAELRAKLLT
+Thecc1EG016756t1             51  6.96e-18 AEVLAEQKET FWMRDPKTGNWIPENHFGDID VAELREKFLS
+Thecc1EG029240t1             51  6.96e-18 AEVLAEQKET FWMRDPKTGNWIPENHFGDID VAELREKFLS
+Gorai.010G173500.1           49  6.96e-18 VLAHDKEKEA FWMRDPKTGNWIPENHFGDID VAELREKLLS
+Ciclev10006308m              61  6.96e-18 AVREDSGASS AWAPDPITGYYRPENRAVEID PAELREMLLN
+orange1.1g034332m            61  6.96e-18 AVREDSGASS AWAPDPITGYYRPENRAVEID PAELREMLLN
+Aco009514.1                  47  8.18e-18 KQAAAEGKEV FWMRDPKTGYWVPENRFDQVD AAELRARLLP
+Pahal.B00630.1               60  8.18e-18 GGRATGNKDV FWMRDPKTGCWIPENRFQEVD AVELRNRLLH
+Medtr8g022990.1              60  8.18e-18 ISVANEERKI FWMRDPKTGNWIPENHFGEVD DDADLRNKFL
+Potri.T154700.1              74  8.18e-18 KSHMGETDNN GWVPHERTGIYYPKGQEKVME GIPPAAGKDV
+Potri.010G248600.1           77  8.18e-18 KSHMGETDSN GWVPHERTGIYYPKGQEKVME GIPPAAGKDV
+Lus10042672                  57  8.18e-18 KKVFKPIQRV SWVPDPRTGFYRPENVAEDIY DAAYQRALHL
+Bol034834                    72  9.60e-18 ARETTSFSES SWVPHEATGIYYPKGQEKVMQ DVPPPPAGSH
+Cucsa.219260.1               39  9.60e-18 ETESLPYNSS TWVPHPRTGIYFPQGHEWVMK DIPENAASFP
+Aco002475.1                  67  1.13e-17 ASADAEADAV AWLPDPVTGYYRPANRAGEMD AAGLREVLLN
+Ciclev10026814m              67  1.13e-17 NNVGENEGNC GWVPHERTGIYYPKGHEKVIE DVPPSAGRDF
+Lus10027987                  51  1.32e-17 TGEEAAAGKQ SWIPDPRTGFYRPEHVAEEID AAELRALLLK
+DCAR_018327                  46  1.54e-17 KGGEETSASN SWIPDPVTGYYRPEGKGNEVD AAELREMLLR
+evm_27.model.AmTr_v1.0_s     62  1.54e-17 KGGGERSEQI FWMRDPVTGNWIPENHFGAMD VAELREKLLS
+Carubv10021185m              70  1.54e-17 GAGETSSPAS SWVPHEGTGIYYPKGQEKVMQ DVPPPPGGSH
+Thhalv10019346m              70  1.54e-17 VAGETSSSAN SWVPHEGTGIYYPKGQEKVMQ DVPPPPAGSH
+AT1G73120.1                  70  1.54e-17 GAGETSSPAS SWVPHEGTGIYYPKGQEKVMQ DVPPPPAGSH
+29308.m000187                54  1.80e-17 LAEKKVKDET FWMRDPKTGNWIPESHFGEID AADLRRKFLS
+Bol040777                    65  2.10e-17 NVGEESSEKA PWIPDPKTGYYRPATVSQEID PAELRAVLLN
+AT3G53770.1                  85  2.10e-17 QGKMMRGEEL WWMPDPQTGYYRPDNFARELD AVELRSLHFN
+evm.model.supercontig_25     57  2.10e-17 TAAADESKKY FWMRDPKTGNWIPESHFNEVD VADLREKFLS
+Solyc01g107280.2.1           54  2.44e-17 SKEEEIKKEE WWVPHPRTGIYFPIGQERVMN DIPNGAASLP
+DCAR_001679                  60  2.44e-17 PECDDENARS YWIPDPRTGIYVPKGRERVVE DVPENAASFQ
+Bol018109                    58  3.30e-17 RVEINRGGEE EWIPHPRTGIFFPPGHESVMD GVPDGAASFD
+AL2G32870.t1                 70  4.45e-17 GAGETSSPAS SWVPHDGTGIYYPKGQEKVMQ DVPPPPAGSH
+evm_27.model.AmTr_v1.0_s     61  4.45e-17 KNSSNKGSKS SWMPDPVTGYYLPEDHFGETD VAQLREELLN
+Lus10008169                  49  4.45e-17 TGEEAAAGKQ SWIPDPRTGFYRPEHVTEEID AAELRALLLK
+DCAR_005788                  57  5.96e-17 SGEEVAQVNR SWGPDPVTGYYRPEGVPSQVD AAEMRDVLLK
+Tp57577_TGAC_v2_mRNA8606     61  5.96e-17 RAVLNSSYSC LWVPHPRTGIYFPVGHDWVME DVPEDAATFP
+LOC_Os02g35650.1             58  5.96e-17 AAAAAASKEI FWMRDPKTGCWVPENRFGDVD AAELRARLLS
+Potri.010G012100.1           71  5.96e-17 VAKEDSEAYS AWAPDPVTGYYRPANYVAEID PAELREMVLS
+Bol026294                    71  7.96e-17 VAGDTSSSES SWIPHEGTGIYYPKGQEKVMQ DVPPPPAGSN
+AL5G34750.t1                 85  7.96e-17 QGKMMRGEEL WWMPDPHTGYYRPDNFARELD AVELRSLHLN
+Aco023812.1                 117  7.96e-17 VVAAEPKKEI CWMPDPRSGNWVPENRFDEVD VAGLRAQHLS
+Potri.003G072000.1           54  7.96e-17 EDLETGGSKE FWMRDPKTGNWIPESHFGDID VAEMREKILS
+evm.model.supercontig_16     69  7.96e-17 MMKEESGASS AWAPDPVTGYYRPENRAMEIG AAELREMLLN
+Tp57577_TGAC_v2_mRNA2290     38  9.18e-17 GEEVVSTYKV SWVPDPVTGYYKPENVKDVDA AELRAKLLRK
+Tp57577_TGAC_v2_mRNA2669     35  9.18e-17 GKRLFLLIRV SWVPDPVTGYYKPENVKDVDA AELRAKLLRK
+Tp57577_TGAC_v2_mRNA9964     63  9.18e-17 GEEVVSTYKV SWVPDPVTGYYKPENVKDVDA AELRAKLLRK
+Pahal.J01851.1               65  9.18e-17 PAAAAAEEKT AWGPDPATGYYRPAGGAKEVD AAELRAKLLT
+MDP0000808464                60  1.06e-16 NQMGENNDNN IWVPHEKTGIYYPKGQEKVLD EISPGSVKDM
+Solyc06g068660.2.1           60  1.22e-16 SVMKNNHDDS WWVPDDRTGIFYPKGQQKVIE DVPSAAAKDY
+Spipo0G0034500               54  1.22e-16 VSSSTGKREI FWMRDPKTGNWIPENRFSDVD AAELREILLS
+Ciclev10026853m              53  1.22e-16 ESVCGVEKEE FWMRDPNTGNWIPESQFNQID AADLRDQLLP
+orange1.1g034497m            56  1.22e-16 ESVCGVEKEE FWMRDPNTGNWIPESQFNQID AADLRDQLLP
+DCAR_001674                  12  1.61e-16 SKCEDENASS YWMPDARTGIYVPKGHERVIE DVPENAASFH
+Lus10006508                  57  1.61e-16 KSAANNGSES AWAPDPVTGYYRPGNSPDEID PVELREMLLN
+Aco001848.1                  63  1.85e-16 RKAESAAAEA AWVPDPVTGYYRPGNRAVAVD AAEMREMFLP
+Ciclev10029838m             102  1.85e-16 KMNNSKESLV NWIPHPRSGIYVPQGHERVMD DVPINAASFG
+orange1.1g047273m            49  1.85e-16 KMNNSKESLV NWIPHPRSGIYVPQGHERVMD DVPINAASFG
+Oropetium_20150105_02166     66  2.43e-16 AEQAPRQEES SWMRDPKTGCWMPENHVDDVD PADLRARLVF
+Gorai.004G142600.1           66  2.43e-16 DMATATKDKV NWVPDPVTGFYRPENTVNEIC PAELRATLLK
+Cucsa.359830.1               57  2.78e-16 DNEVVEQKKT FWMKDPKSGNWIPENHFEEMD VVELREKLLA
+DCAR_005789                  57  3.63e-16 GGEEVAQVNR PWGPDPVTGYYRPEGVPSQVD AAEMREMLLK
+Carubv10014963m              59  3.63e-16 HNLNFGGEEE SWKPHPRTGIFFPPGQEAVME DVPDGAASLD
+Tp57577_TGAC_v2_mRNA4114     63  4.14e-16 GEEVVSTYKV SWVPDPVTGYYKPENIKDVDA AELRAKLLRK
+Medtr7g108745.1              63  4.73e-16 REEGVSAYKV SWVPDPVTGYYRPENIKDIDA AELRAKLPPK
+Lus10029634                  57  6.98e-16 KKVFKPIQRV SWVPDSRTGFYRPENVAEDIY DAAYQRALHL
+Medtr1g088230.1              57  9.00e-16 EDKVANANKV AWVPDPVTGYYKPENTSEVDV SDPRVTVLGK
+Cucsa.097030.1               77  1.16e-15 ESERSTEKAA VWIPDPVTGCYRPESNMDEMD AVDLRAKLLK
+Pahal.F01830.1               62  1.31e-15 AGSKPREEEG FWMRDPKTGCWMPENRLHDVD AADLRARLLF
+Ciclev10027008m              71  1.31e-15 AHVCGVKKEE FWMKDPITGNWIPESQFNQID VADLREQLLP
+orange1.1g040851m            42  1.31e-15 AHVCGVKKEE FWMKDPITGNWIPESQFNQID VADLREQLLP
+Pahal.C03304.1               60  1.49e-15 MATTTEEKTA FWEPDPETGYYRPVTGTKEVD PADLRAEMLK
+Carubv10019274m              92  2.15e-15 QGKMLRGEEL WWMPDPHSGYYRPDNFARELD AAELRSLHFN
+DCAR_003609                  20  3.08e-15 KKIEEKETSS YWTPDGRTGIYVPRGHESVMD NVPVGAASLK
+LOC_Os05g29930.1             60  3.08e-15 TATTTEEKTA FWEPDPDTGYYRPVTGTKEVD AADLRAEMLK
+LOC_Os03g28260.1            113  3.47e-15 ATAATAKRDV AWMRDPKTGCWAPENRVDEVD AVDLRNLLLN
+LOC_Os08g34990.1             71  4.39e-15 GAAAGSKEGF FWMREPRTGNWMPENHFNDVD AADLRSQLLF
+406960                       39  4.39e-15 DARGPAKKQQ WWRPDPVTGTWIPEGHEGQID TVELREERLR
+Medtr7g108735.1              65  4.93e-15 GEDGSSTYKV SWVPDPVTGYYKPENIKDTDA ADLRAKLLRK
+Ciclev10027457m              47  5.54e-15 NNVGENEGNC GWVPHERTGIYYPKGHEKSY*           
+Pahal.E03496.1              264  6.97e-15 EAGRGAAAEI SWVPDPVTGHYRPGNWAAAAD PADLRAAHLA
+Tp57577_TGAC_v2_mRNA3510     65  7.82e-15 EDKVANAGKV TWVPDPVTGYYKPENTNEVAV ADLRATVLGK
+Pahal.A02181.1               54  8.75e-15 SNSAAASREV FWMRDPQTGCWAPEDRFADVD AAELRARLLS
+Thhalv10021904m              16  9.80e-15 VEIINCGGEE EWVPHPHTGIFFLPGQESVMD GVPDGAASFD
+Thhalv10010830m              82  1.23e-14 DVKTRRGEEL WWMPDPETGFYRPDTFPRELD AVELRSMHLN
+Oropetium_20150105_02499     56  1.37e-14 SNAAASSEQI FWMRHPETGCWVPQDRFTDVD AAELRARVLG
+Aco009513.1                  25  1.53e-14 LLRVDQQQMV HWMRDPKTGFWVPENRFYQAD VAELRAQLLP
+mrna12618.1-v1.0-hybrid      74  1.90e-14 DDVISPEPVK YWAPNPRTGVFGPETGHNSTQ AGESGAVNGS
+30073.m002221                74  2.36e-14 DEVIQPLSDK YWAPHPQTGVFGPATEPNSGA GGERGFSTSP
+DCAR_010550                  68  3.25e-14 DEVTQRQSDH YWAPHPKTGVFGPASEENPDA GSNTSPYGAS
+Lus10037497                  73  3.62e-14 KSAANKGSES AWSPDPITGHYRPGNSPDEID PVELRQMLLN
+Oropetium_20150105_19777    454  4.46e-14 TRPPAMKKDV FWMKDPKTGCWIPENRFQDEV DDVELRNRLL
+Thecc1EG025370t1             90  5.49e-14 DDVIKPQSDK YWAPHPQTGVFGPATELKASA GGERANVAVD
+Cucsa.114640.1               59  6.09e-14 NQSHVGGEVT PWVLDGRTGIYYPKGHEKVLN SIPDGGGAAV
+Thhalv10021768m              74  8.26e-14 EDVVKPDSDK YWSPHPQTGVFGPSTTEDSPA AEAARQNSAV
+evm.model.supercontig_39     64  8.26e-14 DDVIPPQSDK YWAPDPQTGVFGPASDHKAAA ANSSSAKGSQ
+AT3G03150.1                  70  9.14e-14 DEVIKPDSDK YWSPHPKTGVFGPSTTEHSAT AEGAHQDTAV
+Pahal.G02159.1               65  1.01e-13 VIGGAANPDK YWGPHPKTGVFGPAAVDAQLA AGAPDAAANG
+Potri.013G081700.1           69  1.23e-13 DDVIKPQSDK YWAPHPRTGVFGPATEQHLSE ISGDSASVGN
+Lus10002135                  66  1.36e-13 SPREEDSKYH YWEPHPQTGVFGPASAASSGA NCTTTTTTTI
+Lus10008759                  79  1.36e-13 PPGQKDSKYH YWEPHPQTGVFGPASAASSGA KCTTTITDAP
+MDP0000296346                68  1.36e-13 DDVIPPQPDK YWAPHPHTGVFGPEAEHTSSA GREDGSSTGD
+Thhalv10017419m              73  1.50e-13 DELIKSDSNK YWSPHPQTGVFGPSSSSSITD TNDKNRSQDQ
+Tp57577_TGAC_v2_mRNA3923     70  1.66e-13 DVIQSTQSTK YWAPHPHTGVFGPPGEHSTDA SAAAASSVLE
+AL3G12760.t1                 69  1.83e-13 DEVIKPDSDK YWSPHPKTGVFGPSPTEHSDA AEGARQDTAV
+GSVIVT01024455001            70  1.83e-13 DELIQPQSDK YWAPHPQTGVFGPAAEQNAAT AESVLEEKAW
+Carubv10014932m              71  2.22e-13 DEVIKPDSDQ YWSPHPQTGVFGPSTADHSSA SEGAARQDSA
+Medtr4g120040.1              66  2.69e-13 MSKDGQEACS AWAPDPESGYYRPINYTPKID PVELRQMLLK
+AL6G28210.t1                 68  3.58e-13 DELIKPDSDK YWSPHPQTGVFGPSSSSTDTN DDFRGGQEDS
+Spipo0G0115200               76  4.31e-13 DDVIQPHSTT SWGPHPATGVFGPSDRNNHPD SSTASAGSGA
+Oropetium_20150105_09731     61  5.70e-13 KEAGRRAAEV SWVPDPVTGHYRPSNWXXXXX XXXXXXXXXX
+Gorai.003G051000.1           70  5.70e-13 DDVIQPQSDK YWAPDPRTGVFGPATEQLNAS AGGEQSTHSS
+Thhalv10001120m              64  6.25e-13 KAAKTNVEKP SWTPDPKTGYYRPDNGLVKLR SALGVE*   
+MDP0000296095                68  8.22e-13 DDVIPPQPDK YWAPNPHTGVFGPEAEHTSSA GREEGSSPVN
+Cucsa.093870.1               56  8.22e-13 VIQPQAAADN YWAPHPQTGVFGPASDNPAAV AAAANRAADG
+Solyc03g096840.2.1           71  9.00e-13 DEVIEAQSDK YWAPHPQTGVFGPADTAGAER GFHSSQATAA
+Aco017275.1                  78  9.00e-13 HVIEAAVSDK YWGPHPTTGVFGPAAAATATA TAGPKDGLGN
+Aco017273.1                  78  9.00e-13 HVIETCESEK YWGPHPTTGVFGPAAAATATA GTKDGPGNAA
+Zosma31g00380.1              66  1.41e-12 DDLVKPKSDK YWGPNPKTGVFGPTDTNGVVQ SVGESSSSSS
+AHYPO_022193-RA              40  1.41e-12 DDVIQPQSDK YWAPNPNTGVFGPAAAEQSTA RAMGRGFYVS
+Zosma29g01580.1              57  1.54e-12 MTLPYDASNE YWLPHPTTGCFGPAGAEFEGS SSSSGGSILD
+LOC_Os04g50970.1             64  1.54e-12 VIGSVGSPDK YWGPHPTTGVFGPAAVDAKAA AAVGAAKAGA
+Ciclev10013115m              65  1.68e-12 DDVIEPQSEK YWEPNPQTGVFGPASGTEAAG TEGGFHSSPA
+orange1.1g033279m            65  1.68e-12 DDVIEPQSEK YWEPNPQTGVFGPASGTEAAG TEGGFHSSPA
+Carubv10002246m              82  1.83e-12 DDLINPDSHK YWSPHPQTGVFGPSPSSTTDE TSCSKEDSVM
+AT5G17165.1                  64  2.00e-12 DEMIKPDSDK YWSPHPQTGVFGPSSSSTNAK DEFRGGQEDS
+AHYPO_009391-RA              73  2.38e-12 DELIQPQSDK YWAPNPNTGVFGPDAEQNAAA RAMGRGFYMS
+Bol010728                    92  2.83e-12 MDLAPTFRVP SWSRHPKTGDWYPAINKPVGV LHWLQHSEDA
+AL3G10420.t1                 89  2.83e-12 MNLAPTFEVP SWSRHPKTGDWYPAINKPVGV LYWLQHSEDA
+LOC_Os06g02410.1             86  2.83e-12 VHPEEETVED AWVPDHETGVFVPADEAAVSG TENHDHCGAA
+Thhalv10020079m              91  2.83e-12 MDLAPTFHVP SWSRHPKTGDWYPAINKPVGV LHWLQHSEDA
+AT3G01720.1                  89  2.83e-12 MNLAPTFEVP SWSRHPKTGDWYPAINKPVGV LYWLQHSEEA
+Medtr5g008210.1              73  3.08e-12 DVIQATQSTK YWAPNPHTGVFGPPGEHASGF HSASSTTNAS
+Oropetium_20150105_01571     64  3.65e-12 VIRGAGNSDK YWGPHPKTGVFGPAAVDAARL AAAGVPEAGL
+422367                       88  5.12e-12 KKKIPHAKES WWIRDPKTGFWVPEGYVASRY KGQVIPPNKE
+Solyc06g072840.2.1           60  6.04e-12 DEVIKAKSDK YWTPHPHTGVFGPATDHHIGI RAVTASVDSV
+Cucsa.129070.1               74  7.13e-12 HLISHNLSED YWVPHPETGVFGPPKAHHNSS TVPNDTSAGG
+AHYPO_009388-RA              66  7.74e-12 YVIHPHSEKY YWSPNPNTGVFRPHSEHNTAV FNASSTTNGG
+LOC_Os03g42850.1             52  9.12e-12 DETVEGGPED AWVPDHETGVFVPADKAAVSG TENHDHCGAA
+Carubv10012992m              93  2.03e-11 MNLAPTFEVP SWSTHPKTGDWYPAINKPVGV LYWLQHSEDA
+Oropetium_20150105_16922    101  2.78e-11 PDEVAHDADA AWVPDQDTGVFVPAEEAAAGN MADADAAAPT
+Aco015985.1                  39  8.70e-11 DVIENGKPDK YWGPHPETGVFGPAEPNSGST GKPASGNDPA
+Oropetium_20150105_05324     61  1.01e-10 LATTTEEKTA FWEPDPDTGFYRPSRAYKKLP SS*       
+Pahal.J01012.1              101  1.46e-10 LGGVGAEADD AWVPDHETGVFVPAEEATGNG SGSGGDGPHE
+99702                       479  9.02e-10 PSSSPPAASA SLVPDPASGTYRGAGRSLAVA PPSTKHGITV
+AL1G56960.t2                115  9.65e-10 ETVASFESLS GWMLDSASGYYYNQTNGLHYD SQSGFYYSDS
+Carubv10010124m              99  9.65e-10 ANGAPEDGTA GWMLDSASGYYYNQTNGLHYD SKSGFYYSDS
+Thhalv10011741m              99  9.65e-10 ANGAPEDGTR DWVLDSASGYYYNQTNGLHYD SKSGFYYSDS
+AT1G49590.1                  99  1.03e-09 ANGAPEDGTS DWMLDSASGYYYNQTNGLHYD SQSGFYYSDS
+GSVIVT01030233001           135  2.44e-09 APIFTPPVTH PIVRHPQSGYGMPSNSTRRLD EAMASEMESV
+LOC_Os12g14580.1            164  1.18e-08 RDGNVCSGMT RLVRDPDTGIFVPELSRYERW LKEHGIKKGV
+Carubv10027632m             573  1.26e-08 EGEFCGEELL TWALDPKSGINLPSSTRTVKA LTEVEAFALT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif SWVPDPRTGYYRPENHEKEID MEME-1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Solyc09g075210.2.1                2.2e-23  60_[1]_17
+Solyc06g009140.2.1                1.4e-22  57_[1]_17
+evm.model.supercontig_20          1.4e-22  57_[1]_27
+MDP0000299069                     1.3e-21  82_[1]_40
+Cucsa.205500.1                    1.6e-21  71_[1]_14
+mrna25582.1-v1.0-hybrid           2.7e-21  66_[1]_41
+29986.m001632                     3.4e-21  62_[1]_12
+evm_27.model.AmTr_v1.0_s          4.3e-21  50_[1]_26
+evm.model.supercontig_24          6.9e-21  43_[1]_20
+AL6G50740.t1                      8.7e-21  60_[1]_14
+Carubv10002338m                   8.7e-21  60_[1]_14
+Thhalv10029091m                   8.7e-21  60_[1]_14
+AT4G02380.1                       8.7e-21  63_[1]_14
+Gorai.004G090800.1                1.1e-20  67_[1]_13
+Gorai.004G052200.1                1.1e-20  59_[1]_13
+Thecc1EG004676t1                  1.4e-20  61_[1]_13
+Cucsa.097040.1                    1.4e-20  34_[1]_15
+28152.m000891                     1.4e-20  66_[1]_39
+Potri.002G203500.1                2.1e-20  58_[1]_13
+Potri.001G296900.1                2.1e-20  48_[1]_42
+Gorai.004G090700.1                3.3e-20  67_[1]_33
+Spipo2G0096000                      4e-20  29_[1]_29
+GSVIVT01037873001                   4e-20  53_[1]_29
+Solyc08g074720.2.1                  5e-20  64_[1]_17
+MDP0000130837                       5e-20  72_[1]_40
+GSVIVT01028033001                   5e-20  63_[1]_14
+evm.model.supercontig_9.          6.1e-20  65_[1]_14
+AHYPO_009876-RA                   7.5e-20  59_[1]_17
+AHYPO_007836-RA                   7.5e-20  57_[1]_17
+Gorai.013G049200.1                7.5e-20  48_[1]_39
+Bol016554                         9.2e-20  40_[1]_14
+Aco000096.1                       1.7e-19  62_[1]_59
+mrna06837.1-v1.0-hybrid           1.7e-19  59_[1]_17
+MDP0000324831                     1.7e-19  98_[1]_15
+GSVIVT01037872001                   2e-19  53_[1]_34
+Medtr5g005180.1                   2.5e-19  61_[1]_18
+mrna10617.1-v1.0-hybrid           2.5e-19  64_[1]_13
+AL1G12210.t1                      4.3e-19  63_[1]_14
+Lus10008170                       4.3e-19  57_[1]_13
+Lus10027986                       4.3e-19  60_[1]_13
+Thhalv10009185m                   4.3e-19  63_[1]_14
+AT1G02820.1                       4.3e-19  57_[1]_14
+Bol006052                         5.2e-19  60_[1]_14
+LOC_Os01g21250.1                  5.2e-19  54_[1]_19
+Bol030669                         6.3e-19  60_[1]_14
+MDP0000564193                     6.3e-19  69_[1]_13
+MDP0000385497                     6.3e-19  60_[1]_13
+29726.m004064                     6.3e-19  60_[1]_16
+GSVIVT01037871001                 7.5e-19  53_[1]_84
+Pahal.E03121.1                    1.1e-18  59_[1]_16
+Potri.009G091100.1                1.1e-18  71_[1]_40
+mrna15876.1-v1.0-hybrid           1.3e-18  62_[1]_17
+Potri.014G127700.1                1.3e-18  59_[1]_13
+AL3G32960.t1                      1.5e-18  21_[1]_34
+Gorai.011G191500.1                1.5e-18  68_[1]_17
+Carubv10010737m                   1.5e-18  63_[1]_14
+AT3G19550.1                       1.5e-18  56_[1]_34
+Carubv10006078m                   1.8e-18  69_[1]_18
+Thecc1EG027481t1                  2.2e-18  452_[1]_17
+Gorai.009G122800.1                2.2e-18  53_[1]_20
+Lus10022961                       2.2e-18  49_[1]_27
+evm_27.model.AmTr_v1.0_s          2.6e-18  67_[1]_18
+LOC_Os12g32290.1                    3e-18  39_[1]_40
+Pahal.C04115.1                      3e-18  39_[1]_41
+Ciclev10023029m                     3e-18  64_[1]_14
+orange1.1g034308m                   3e-18  64_[1]_14
+AL7G39360.t1                      3.6e-18  67_[1]_17
+Thecc1EG021234t1                  3.6e-18  67_[1]_17
+Thecc1EG007188t1                  3.6e-18  49_[1]_41
+mrna05456.1-v1.0-hybrid           3.6e-18  63_[1]_40
+Lus10002114                       3.6e-18  [1]_41
+Lus10013901                       3.6e-18  54_[1]_41
+Lus10002115                       3.6e-18  [1]_41
+Thhalv10026659m                   3.6e-18  60_[1]_17
+AT4G15910.1                       3.6e-18  67_[1]_17
+30063.m001427                     3.6e-18  18_[1]_24
+MDP0000755567                     4.3e-18  69_[1]_13
+Oropetium_20150105_24186            5e-18  93_[1]_40
+Spipo0G0181200                      5e-18  80_[1]_15
+Gorai.002G009800.1                  5e-18  56_[1]_44
+Bol031020                         5.9e-18  57_[1]_33
+Lus10013900                       5.9e-18  66_[1]_23
+Thhalv10021914m                   5.9e-18  60_[1]_33
+Pahal.E03122.1                      7e-18  64_[1]_15
+Thecc1EG016756t1                    7e-18  50_[1]_15
+Thecc1EG029240t1                    7e-18  50_[1]_15
+Gorai.010G173500.1                  7e-18  48_[1]_19
+Ciclev10006308m                     7e-18  60_[1]_17
+orange1.1g034332m                   7e-18  60_[1]_17
+Aco009514.1                       8.2e-18  46_[1]_17
+Pahal.B00630.1                    8.2e-18  59_[1]_13
+Medtr8g022990.1                   8.2e-18  59_[1]_18
+Potri.T154700.1                   8.2e-18  73_[1]_23
+Potri.010G248600.1                8.2e-18  76_[1]_23
+Lus10042672                       8.2e-18  56_[1]_13
+Bol034834                         9.6e-18  71_[1]_20
+Cucsa.219260.1                    9.6e-18  38_[1]_35
+Aco002475.1                       1.1e-17  66_[1]_14
+Ciclev10026814m                   1.1e-17  66_[1]_21
+Lus10027987                       1.3e-17  50_[1]_13
+DCAR_018327                       1.5e-17  45_[1]_17
+evm_27.model.AmTr_v1.0_s          1.5e-17  61_[1]_13
+Carubv10021185m                   1.5e-17  69_[1]_20
+Thhalv10019346m                   1.5e-17  69_[1]_20
+AT1G73120.1                       1.5e-17  69_[1]_20
+29308.m000187                     1.8e-17  53_[1]_17
+Bol040777                         2.1e-17  64_[1]_14
+AT3G53770.1                       2.1e-17  84_[1]_20
+evm.model.supercontig_25          2.1e-17  56_[1]_22
+Solyc01g107280.2.1                2.4e-17  53_[1]_37
+DCAR_001679                       2.4e-17  59_[1]_38
+Bol018109                         3.3e-17  57_[1]_33
+AL2G32870.t1                      4.4e-17  69_[1]_20
+evm_27.model.AmTr_v1.0_s          4.4e-17  60_[1]_18
+Lus10008169                       4.4e-17  48_[1]_13
+DCAR_005788                         6e-17  56_[1]_17
+Tp57577_TGAC_v2_mRNA8606            6e-17  60_[1]_19
+LOC_Os02g35650.1                    6e-17  57_[1]_14
+Potri.010G012100.1                  6e-17  70_[1]_17
+Bol026294                           8e-17  70_[1]_20
+AL5G34750.t1                        8e-17  84_[1]_16
+Aco023812.1                         8e-17  116_[1]_14
+Potri.003G072000.1                  8e-17  53_[1]_17
+evm.model.supercontig_16            8e-17  68_[1]_15
+Tp57577_TGAC_v2_mRNA2290          9.2e-17  37_[1]_15
+Tp57577_TGAC_v2_mRNA2669          9.2e-17  34_[1]_15
+Tp57577_TGAC_v2_mRNA9964          9.2e-17  62_[1]_15
+Pahal.J01851.1                    9.2e-17  64_[1]_15
+MDP0000808464                     1.1e-16  59_[1]_17
+Solyc06g068660.2.1                1.2e-16  59_[1]_24
+Spipo0G0034500                    1.2e-16  53_[1]_13
+Ciclev10026853m                   1.2e-16  52_[1]_18
+orange1.1g034497m                 1.2e-16  55_[1]_18
+DCAR_001674                       1.6e-16  11_[1]_31
+Lus10006508                       1.6e-16  56_[1]_17
+Aco001848.1                       1.8e-16  62_[1]_16
+Ciclev10029838m                   1.8e-16  101_[1]_34
+orange1.1g047273m                 1.8e-16  48_[1]_34
+Oropetium_20150105_02166          2.4e-16  65_[1]_15
+Gorai.004G142600.1                2.4e-16  65_[1]_13
+Cucsa.359830.1                    2.8e-16  56_[1]_17
+DCAR_005789                       3.6e-16  56_[1]_17
+Carubv10014963m                   3.6e-16  58_[1]_35
+Tp57577_TGAC_v2_mRNA4114          4.1e-16  62_[1]_15
+Medtr7g108745.1                   4.7e-16  62_[1]_15
+Lus10029634                         7e-16  56_[1]_13
+Medtr1g088230.1                     9e-16  56_[1]_18
+Cucsa.097030.1                    1.2e-15  76_[1]_18
+Pahal.F01830.1                    1.3e-15  61_[1]_15
+Ciclev10027008m                   1.3e-15  70_[1]_17
+orange1.1g040851m                 1.3e-15  41_[1]_17
+Pahal.C03304.1                    1.5e-15  59_[1]_17
+Carubv10019274m                   2.1e-15  91_[1]_17
+DCAR_003609                       3.1e-15  19_[1]_33
+LOC_Os05g29930.1                  3.1e-15  59_[1]_17
+LOC_Os03g28260.1                  3.5e-15  112_[1]_13
+LOC_Os08g34990.1                  4.4e-15  70_[1]_15
+406960                            4.4e-15  38_[1]_45
+Medtr7g108735.1                   4.9e-15  64_[1]_15
+Ciclev10027457m                   5.5e-15  46_[1]
+Pahal.E03496.1                      7e-15  263_[1]_17
+Tp57577_TGAC_v2_mRNA3510          7.8e-15  64_[1]_12
+Pahal.A02181.1                    8.8e-15  53_[1]_14
+Thhalv10021904m                   9.8e-15  15_[1]_46
+Thhalv10010830m                   1.2e-14  81_[1]_17
+Oropetium_20150105_02499          1.4e-14  55_[1]_14
+Aco009513.1                       1.5e-14  24_[1]_16
+mrna12618.1-v1.0-hybrid           1.9e-14  73_[1]_36
+30073.m002221                     2.4e-14  73_[1]_39
+DCAR_010550                       3.3e-14  67_[1]_35
+Lus10037497                       3.6e-14  72_[1]_17
+Oropetium_20150105_19777          4.5e-14  453_[1]_14
+Thecc1EG025370t1                  5.5e-14  89_[1]_34
+Cucsa.114640.1                    6.1e-14  58_[1]_23
+Thhalv10021768m                   8.3e-14  73_[1]_32
+evm.model.supercontig_39          8.3e-14  63_[1]_35
+AT3G03150.1                       9.1e-14  69_[1]_32
+Pahal.G02159.1                      1e-13  64_[1]_35
+Potri.013G081700.1                1.2e-13  68_[1]_39
+Lus10002135                       1.4e-13  65_[1]_36
+Lus10008759                       1.4e-13  78_[1]_32
+MDP0000296346                     1.4e-13  67_[1]_38
+Thhalv10017419m                   1.5e-13  72_[1]_34
+Tp57577_TGAC_v2_mRNA3923          1.7e-13  69_[1]_33
+AL3G12760.t1                      1.8e-13  68_[1]_32
+GSVIVT01024455001                 1.8e-13  69_[1]_24
+Carubv10014932m                   2.2e-13  70_[1]_33
+Medtr4g120040.1                   2.7e-13  65_[1]_18
+AL6G28210.t1                      3.6e-13  67_[1]_33
+Spipo0G0115200                    4.3e-13  75_[1]_35
+Oropetium_20150105_09731          5.7e-13  60_[1]_17
+Gorai.003G051000.1                5.7e-13  69_[1]_37
+Thhalv10001120m                   6.3e-13  63_[1]_7
+MDP0000296095                     8.2e-13  67_[1]_38
+Cucsa.093870.1                    8.2e-13  55_[1]_38
+Solyc03g096840.2.1                  9e-13  70_[1]_35
+Aco017275.1                         9e-13  77_[1]_48
+Aco017273.1                         9e-13  77_[1]_46
+Zosma31g00380.1                   1.4e-12  65_[1]_34
+AHYPO_022193-RA                   1.4e-12  39_[1]_39
+Zosma29g01580.1                   1.5e-12  56_[1]_27
+LOC_Os04g50970.1                  1.5e-12  63_[1]_36
+Ciclev10013115m                   1.7e-12  64_[1]_39
+orange1.1g033279m                 1.7e-12  64_[1]_39
+Carubv10002246m                   1.8e-12  81_[1]_31
+AT5G17165.1                         2e-12  63_[1]_33
+AHYPO_009391-RA                   2.4e-12  72_[1]_39
+Bol010728                         2.8e-12  91_[1]_694
+AL3G10420.t1                      2.8e-12  88_[1]_691
+LOC_Os06g02410.1                  2.8e-12  85_[1]_51
+Thhalv10020079m                   2.8e-12  90_[1]_708
+AT3G01720.1                       2.8e-12  88_[1]_694
+Medtr5g008210.1                   3.1e-12  72_[1]_39
+Oropetium_20150105_01571          3.7e-12  63_[1]_37
+422367                            5.1e-12  87_[1]_32
+Solyc06g072840.2.1                  6e-12  59_[1]_30
+Cucsa.129070.1                    7.1e-12  73_[1]_37
+AHYPO_009388-RA                   7.7e-12  65_[1]_40
+LOC_Os03g42850.1                  9.1e-12  51_[1]_22
+Carubv10012992m                     2e-11  92_[1]_705
+Oropetium_20150105_16922          2.8e-11  100_[1]_45
+Aco015985.1                       8.7e-11  38_[1]_32
+Oropetium_20150105_05324            1e-10  60_[1]_3
+Pahal.J01012.1                    1.5e-10  100_[1]_44
+99702                               9e-10  478_[1]_640
+AL1G56960.t2                      9.7e-10  114_[1]_124
+Carubv10010124m                   9.7e-10  98_[1]_127
+Thhalv10011741m                   9.7e-10  98_[1]_126
+AT1G49590.1                         1e-09  98_[1]_124
+GSVIVT01030233001                 2.4e-09  134_[1]_438
+LOC_Os12g14580.1                  1.2e-08  163_[1]_127
+Carubv10027632m                   1.3e-08  572_[1]_125
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif SWVPDPRTGYYRPENHEKEID MEME-1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF SWVPDPRTGYYRPENHEKEID width=21 seqs=232
+Solyc09g075210.2.1       (   61) SWVPDPVTGYYRPEGQANEID  1 
+Solyc06g009140.2.1       (   58) SWVPDPVTGYYRPETHAKEID  1 
+evm.model.supercontig_20 (   58) SWVPHPRTGIYFPKGHEWVMD  1 
+MDP0000299069            (   83) SWVPHPKTGIYVPKGHEKVMD  1 
+Cucsa.205500.1           (   72) SWVPDPVTGYYRPENRSDEID  1 
+mrna25582.1-v1.0-hybrid  (   67) SWVPDPRTGIYFPKGHERVMD  1 
+29986.m001632            (   63) SWVPDPRTGFYRPENVAKEID  1 
+evm_27.model.AmTr_v1.0_s (   51) CWVPHPRTGIYYPKGHEKVME  1 
+evm.model.supercontig_24 (   44) SWVPHPRTGIYYPQGHEKVME  1 
+AL6G50740.t1             (   61) SWVPDPKTGYYRPETGSNEID  1 
+Carubv10002338m          (   61) SWVPDPKTGYYRPETGSNEID  1 
+Thhalv10029091m          (   61) SWVPDPKTGYYRPETGSNEID  1 
+AT4G02380.1              (   64) SWVPDPKTGYYRPETGSNEID  1 
+Gorai.004G090800.1       (   68) SWVPDPVTGCYRPENCPNEID  1 
+Gorai.004G052200.1       (   60) SWVPDPVTGCYRPENCGNEID  1 
+Thecc1EG004676t1         (   62) SWVPDPVTGFYRPENTAKEID  1 
+Cucsa.097040.1           (   35) SWVPDPVTGYYRPENCGAEMD  1 
+28152.m000891            (   67) CWVPHPRTGIYVPKGHERVMD  1 
+Potri.002G203500.1       (   59) SWVPDPRTGFYRPENVAQEID  1 
+Potri.001G296900.1       (   49) DWVPHPRTGIYFPKGHEWVMD  1 
+Gorai.004G090700.1       (   68) SWVPDPVTGCYRPENCANETD  1 
+Spipo2G0096000           (   30) PWVPHPRTGIYYPKGQEWVME  1 
+GSVIVT01037873001        (   54) SWVPHPRTGIYFPKGHDHVID  1 
+Solyc08g074720.2.1       (   65) PWVPHPVTGYYRPENQADMID  1 
+MDP0000130837            (   73) NWVPHPRTGIYVPKGHEKVMD  1 
+GSVIVT01028033001        (   64) PWVPDPVTGYYRPENEAKQID  1 
+evm.model.supercontig_9. (   66) SWVPDPKTGYYRPDNGTKEID  1 
+AHYPO_009876-RA          (   60) SWIPDPVTGYYRPANRAAEID  1 
+AHYPO_007836-RA          (   58) SWIPDPVTGYYRPANRAAEID  1 
+Gorai.013G049200.1       (   49) SWVPHPKSGIYFPKGHEWVMD  1 
+Bol016554                (   41) SWIPDPKTGYYRPETGSNEID  1 
+Aco000096.1              (   63) LWVPHPRTGIYYPKGHEWVME  1 
+mrna06837.1-v1.0-hybrid  (   60) AWAPDPRTGYYRPANRADEID  1 
+MDP0000324831            (   99) AWAPDPRTGYYRPANRADEID  1 
+GSVIVT01037872001        (   54) SWVPHPRTGIYFPEGHDHMMD  1 
+Medtr5g005180.1          (   62) CWVPHPRTGIYFPVGHEWVME  1 
+mrna10617.1-v1.0-hybrid  (   65) SWVPNPKTGVYGPENRADEID  1 
+AL1G12210.t1             (   64) PWVPDPKTGYYRPETVSEEID  1 
+Lus10008170              (   58) SWVPDPKTGFYRPDNGAEEID  1 
+Lus10027986              (   61) SWVPDPKTGFYRPDNVAEEID  1 
+Thhalv10009185m          (   64) PWVPDPKTGYYRPETVSEEID  1 
+AT1G02820.1              (   58) PWVPDPKTGYYRPETVSEEID  1 
+Bol006052                (   61) AWIPDPKTGYYRPETGSNEID  1 
+LOC_Os01g21250.1         (   55) AWVPDPVTGYYRPAGGAKEVD  1 
+Bol030669                (   61) AWIPDPKTGYYRPETGSKEID  1 
+MDP0000564193            (   70) SWVPDPKTGVYGPENGAEKID  1 
+MDP0000385497            (   61) SWVPDPKTGVYGPENGAEKID  1 
+29726.m004064            (   61) AWAPDPVTGYYRPANRAAEID  1 
+GSVIVT01037871001        (   54) SWVPHPRTGIYFPKGHDHMMD  1 
+Pahal.E03121.1           (   60) PWVPDPVTGYYRPAGGAKEVD  1 
+Potri.009G091100.1       (   72) DWAPHPRTGIYVPKGHEKVMD  1 
+mrna15876.1-v1.0-hybrid  (   63) SWVPHERTGIYYPKGQEKVMN  1 
+Potri.014G127700.1       (   60) SWVPDPRTGFYRPGNVAEEID  1 
+AL3G32960.t1             (   22) SWVPHPRTGIFFPPGQESVME  1 
+Gorai.011G191500.1       (   69) AWAPDPVTGYYRPENCGAEID  1 
+Carubv10010737m          (   64) PWVPDPKTGYYRPETASEEID  1 
+AT3G19550.1              (   57) SWVPHPRTGIFFPPGQESVME  1 
+Carubv10006078m          (   70) AWGPDPVTGYYRPSNRADEID  1 
+Thecc1EG027481t1         (  453) CWVPHDRTGIYYPKGQEKVMA  1 
+Gorai.009G122800.1       (   54) CWVPHDRTGIYYPKGQEKVMA  1 
+Lus10022961              (   50) CWVPDDKTGIYYPKGQEKVME  1 
+evm_27.model.AmTr_v1.0_s (   68) SWMPDPVTGYYVPEDHFGETD  1 
+LOC_Os12g32290.1         (   40) LWVPHPRTGIYYPKGFEWVME  1 
+Pahal.C04115.1           (   40) LWVPHPRTGIYYPKGFEWVME  1 
+Ciclev10023029m          (   65) SWVPDPVTGVYRPENLANELD  1 
+orange1.1g034308m        (   65) SWVPDPVTGVYRPENLANELD  1 
+AL7G39360.t1             (   68) AWGPDPVTGYYRPSNRAAEID  1 
+Thecc1EG021234t1         (   68) AWAPDPVTGYYRPENCLAEID  1 
+Thecc1EG007188t1         (   50) SWVPHPKSGIYFPKGHEWVMN  1 
+mrna05456.1-v1.0-hybrid  (   64) FWMRDPKTGNWIPENHFEDID  1 
+Lus10002114              (    1) MWVPDPRTGIYFPRGQEWVME  1 
+Lus10013901              (   55) MWVPDPRTGIYFPRGQEWVME  1 
+Lus10002115              (    1) MWVPDPRTGIYFPRGQEWVME  1 
+Thhalv10026659m          (   61) AWAPDPVTGYYRPSNRTDEID  1 
+AT4G15910.1              (   68) AWGPDPVTGYYRPSNRAAEID  1 
+30063.m001427            (   19) CWIPDERTGIYYPKGQEKVME  1 
+MDP0000755567            (   70) SWVPDPKTGVYGPENGTAKID  1 
+Oropetium_20150105_24186 (   94) LWVPHPRTGIYYPKGSEWVME  1 
+Spipo0G0181200           (   81) SWVPDPATGYYRPANGAPDID  1 
+Gorai.002G009800.1       (   57) CWVPHPKSGIYFPEGHEWVMK  1 
+Bol031020                (   58) EWVPHPRTGIFFPPGQESVMD  1 
+Lus10013900              (   67) CWVPDPRTGIYFPVGHEVVME  1 
+Thhalv10021914m          (   61) EWVPHPRTGIFFPPGQESVMD  1 
+Pahal.E03122.1           (   65) AWVPDPATGYYRPAGGAKEVD  1 
+Thecc1EG016756t1         (   51) FWMRDPKTGNWIPENHFGDID  1 
+Thecc1EG029240t1         (   51) FWMRDPKTGNWIPENHFGDID  1 
+Gorai.010G173500.1       (   49) FWMRDPKTGNWIPENHFGDID  1 
+Ciclev10006308m          (   61) AWAPDPITGYYRPENRAVEID  1 
+orange1.1g034332m        (   61) AWAPDPITGYYRPENRAVEID  1 
+Aco009514.1              (   47) FWMRDPKTGYWVPENRFDQVD  1 
+Pahal.B00630.1           (   60) FWMRDPKTGCWIPENRFQEVD  1 
+Medtr8g022990.1          (   60) FWMRDPKTGNWIPENHFGEVD  1 
+Potri.T154700.1          (   74) GWVPHERTGIYYPKGQEKVME  1 
+Potri.010G248600.1       (   77) GWVPHERTGIYYPKGQEKVME  1 
+Lus10042672              (   57) SWVPDPRTGFYRPENVAEDIY  1 
+Bol034834                (   72) SWVPHEATGIYYPKGQEKVMQ  1 
+Cucsa.219260.1           (   39) TWVPHPRTGIYFPQGHEWVMK  1 
+Aco002475.1              (   67) AWLPDPVTGYYRPANRAGEMD  1 
+Ciclev10026814m          (   67) GWVPHERTGIYYPKGHEKVIE  1 
+Lus10027987              (   51) SWIPDPRTGFYRPEHVAEEID  1 
+DCAR_018327              (   46) SWIPDPVTGYYRPEGKGNEVD  1 
+evm_27.model.AmTr_v1.0_s (   62) FWMRDPVTGNWIPENHFGAMD  1 
+Carubv10021185m          (   70) SWVPHEGTGIYYPKGQEKVMQ  1 
+Thhalv10019346m          (   70) SWVPHEGTGIYYPKGQEKVMQ  1 
+AT1G73120.1              (   70) SWVPHEGTGIYYPKGQEKVMQ  1 
+29308.m000187            (   54) FWMRDPKTGNWIPESHFGEID  1 
+Bol040777                (   65) PWIPDPKTGYYRPATVSQEID  1 
+AT3G53770.1              (   85) WWMPDPQTGYYRPDNFARELD  1 
+evm.model.supercontig_25 (   57) FWMRDPKTGNWIPESHFNEVD  1 
+Solyc01g107280.2.1       (   54) WWVPHPRTGIYFPIGQERVMN  1 
+DCAR_001679              (   60) YWIPDPRTGIYVPKGRERVVE  1 
+Bol018109                (   58) EWIPHPRTGIFFPPGHESVMD  1 
+AL2G32870.t1             (   70) SWVPHDGTGIYYPKGQEKVMQ  1 
+evm_27.model.AmTr_v1.0_s (   61) SWMPDPVTGYYLPEDHFGETD  1 
+Lus10008169              (   49) SWIPDPRTGFYRPEHVTEEID  1 
+DCAR_005788              (   57) SWGPDPVTGYYRPEGVPSQVD  1 
+Tp57577_TGAC_v2_mRNA8606 (   61) LWVPHPRTGIYFPVGHDWVME  1 
+LOC_Os02g35650.1         (   58) FWMRDPKTGCWVPENRFGDVD  1 
+Potri.010G012100.1       (   71) AWAPDPVTGYYRPANYVAEID  1 
+Bol026294                (   71) SWIPHEGTGIYYPKGQEKVMQ  1 
+AL5G34750.t1             (   85) WWMPDPHTGYYRPDNFARELD  1 
+Aco023812.1              (  117) CWMPDPRSGNWVPENRFDEVD  1 
+Potri.003G072000.1       (   54) FWMRDPKTGNWIPESHFGDID  1 
+evm.model.supercontig_16 (   69) AWAPDPVTGYYRPENRAMEIG  1 
+Tp57577_TGAC_v2_mRNA2290 (   38) SWVPDPVTGYYKPENVKDVDA  1 
+Tp57577_TGAC_v2_mRNA2669 (   35) SWVPDPVTGYYKPENVKDVDA  1 
+Tp57577_TGAC_v2_mRNA9964 (   63) SWVPDPVTGYYKPENVKDVDA  1 
+Pahal.J01851.1           (   65) AWGPDPATGYYRPAGGAKEVD  1 
+MDP0000808464            (   60) IWVPHEKTGIYYPKGQEKVLD  1 
+Solyc06g068660.2.1       (   60) WWVPDDRTGIFYPKGQQKVIE  1 
+Spipo0G0034500           (   54) FWMRDPKTGNWIPENRFSDVD  1 
+Ciclev10026853m          (   53) FWMRDPNTGNWIPESQFNQID  1 
+orange1.1g034497m        (   56) FWMRDPNTGNWIPESQFNQID  1 
+DCAR_001674              (   12) YWMPDARTGIYVPKGHERVIE  1 
+Lus10006508              (   57) AWAPDPVTGYYRPGNSPDEID  1 
+Aco001848.1              (   63) AWVPDPVTGYYRPGNRAVAVD  1 
+Ciclev10029838m          (  102) NWIPHPRSGIYVPQGHERVMD  1 
+orange1.1g047273m        (   49) NWIPHPRSGIYVPQGHERVMD  1 
+Oropetium_20150105_02166 (   66) SWMRDPKTGCWMPENHVDDVD  1 
+Gorai.004G142600.1       (   66) NWVPDPVTGFYRPENTVNEIC  1 
+Cucsa.359830.1           (   57) FWMKDPKSGNWIPENHFEEMD  1 
+DCAR_005789              (   57) PWGPDPVTGYYRPEGVPSQVD  1 
+Carubv10014963m          (   59) SWKPHPRTGIFFPPGQEAVME  1 
+Tp57577_TGAC_v2_mRNA4114 (   63) SWVPDPVTGYYKPENIKDVDA  1 
+Medtr7g108745.1          (   63) SWVPDPVTGYYRPENIKDIDA  1 
+Lus10029634              (   57) SWVPDSRTGFYRPENVAEDIY  1 
+Medtr1g088230.1          (   57) AWVPDPVTGYYKPENTSEVDV  1 
+Cucsa.097030.1           (   77) VWIPDPVTGCYRPESNMDEMD  1 
+Pahal.F01830.1           (   62) FWMRDPKTGCWMPENRLHDVD  1 
+Ciclev10027008m          (   71) FWMKDPITGNWIPESQFNQID  1 
+orange1.1g040851m        (   42) FWMKDPITGNWIPESQFNQID  1 
+Pahal.C03304.1           (   60) FWEPDPETGYYRPVTGTKEVD  1 
+Carubv10019274m          (   92) WWMPDPHSGYYRPDNFARELD  1 
+DCAR_003609              (   20) YWTPDGRTGIYVPRGHESVMD  1 
+LOC_Os05g29930.1         (   60) FWEPDPDTGYYRPVTGTKEVD  1 
+LOC_Os03g28260.1         (  113) AWMRDPKTGCWAPENRVDEVD  1 
+LOC_Os08g34990.1         (   71) FWMREPRTGNWMPENHFNDVD  1 
+406960                   (   39) WWRPDPVTGTWIPEGHEGQID  1 
+Medtr7g108735.1          (   65) SWVPDPVTGYYKPENIKDTDA  1 
+Ciclev10027457m          (   47) GWVPHERTGIYYPKGHEKSYX  1 
+Pahal.E03496.1           (  264) SWVPDPVTGHYRPGNWAAAAD  1 
+Tp57577_TGAC_v2_mRNA3510 (   65) TWVPDPVTGYYKPENTNEVAV  1 
+Pahal.A02181.1           (   54) FWMRDPQTGCWAPEDRFADVD  1 
+Thhalv10021904m          (   16) EWVPHPHTGIFFLPGQESVMD  1 
+Thhalv10010830m          (   82) WWMPDPETGFYRPDTFPRELD  1 
+Oropetium_20150105_02499 (   56) FWMRHPETGCWVPQDRFTDVD  1 
+Aco009513.1              (   25) HWMRDPKTGFWVPENRFYQAD  1 
+mrna12618.1-v1.0-hybrid  (   74) YWAPNPRTGVFGPETGHNSTQ  1 
+30073.m002221            (   74) YWAPHPQTGVFGPATEPNSGA  1 
+DCAR_010550              (   68) YWAPHPKTGVFGPASEENPDA  1 
+Lus10037497              (   73) AWSPDPITGHYRPGNSPDEID  1 
+Oropetium_20150105_19777 (  454) FWMKDPKTGCWIPENRFQDEV  1 
+Thecc1EG025370t1         (   90) YWAPHPQTGVFGPATELKASA  1 
+Cucsa.114640.1           (   59) PWVLDGRTGIYYPKGHEKVLN  1 
+Thhalv10021768m          (   74) YWSPHPQTGVFGPSTTEDSPA  1 
+evm.model.supercontig_39 (   64) YWAPDPQTGVFGPASDHKAAA  1 
+AT3G03150.1              (   70) YWSPHPKTGVFGPSTTEHSAT  1 
+Pahal.G02159.1           (   65) YWGPHPKTGVFGPAAVDAQLA  1 
+Potri.013G081700.1       (   69) YWAPHPRTGVFGPATEQHLSE  1 
+Lus10002135              (   66) YWEPHPQTGVFGPASAASSGA  1 
+Lus10008759              (   79) YWEPHPQTGVFGPASAASSGA  1 
+MDP0000296346            (   68) YWAPHPHTGVFGPEAEHTSSA  1 
+Thhalv10017419m          (   73) YWSPHPQTGVFGPSSSSSITD  1 
+Tp57577_TGAC_v2_mRNA3923 (   70) YWAPHPHTGVFGPPGEHSTDA  1 
+AL3G12760.t1             (   69) YWSPHPKTGVFGPSPTEHSDA  1 
+GSVIVT01024455001        (   70) YWAPHPQTGVFGPAAEQNAAT  1 
+Carubv10014932m          (   71) YWSPHPQTGVFGPSTADHSSA  1 
+Medtr4g120040.1          (   66) AWAPDPESGYYRPINYTPKID  1 
+AL6G28210.t1             (   68) YWSPHPQTGVFGPSSSSTDTN  1 
+Spipo0G0115200           (   76) SWGPHPATGVFGPSDRNNHPD  1 
+Oropetium_20150105_09731 (   61) SWVPDPVTGHYRPSNWXXXXX  1 
+Gorai.003G051000.1       (   70) YWAPDPRTGVFGPATEQLNAS  1 
+Thhalv10001120m          (   64) SWTPDPKTGYYRPDNGLVKLR  1 
+MDP0000296095            (   68) YWAPNPHTGVFGPEAEHTSSA  1 
+Cucsa.093870.1           (   56) YWAPHPQTGVFGPASDNPAAV  1 
+Solyc03g096840.2.1       (   71) YWAPHPQTGVFGPADTAGAER  1 
+Aco017275.1              (   78) YWGPHPTTGVFGPAAAATATA  1 
+Aco017273.1              (   78) YWGPHPTTGVFGPAAAATATA  1 
+Zosma31g00380.1          (   66) YWGPNPKTGVFGPTDTNGVVQ  1 
+AHYPO_022193-RA          (   40) YWAPNPNTGVFGPAAAEQSTA  1 
+Zosma29g01580.1          (   57) YWLPHPTTGCFGPAGAEFEGS  1 
+LOC_Os04g50970.1         (   64) YWGPHPTTGVFGPAAVDAKAA  1 
+Ciclev10013115m          (   65) YWEPNPQTGVFGPASGTEAAG  1 
+orange1.1g033279m        (   65) YWEPNPQTGVFGPASGTEAAG  1 
+Carubv10002246m          (   82) YWSPHPQTGVFGPSPSSTTDE  1 
+AT5G17165.1              (   64) YWSPHPQTGVFGPSSSSTNAK  1 
+AHYPO_009391-RA          (   73) YWAPNPNTGVFGPDAEQNAAA  1 
+Bol010728                (   92) SWSRHPKTGDWYPAINKPVGV  1 
+AL3G10420.t1             (   89) SWSRHPKTGDWYPAINKPVGV  1 
+LOC_Os06g02410.1         (   86) AWVPDHETGVFVPADEAAVSG  1 
+Thhalv10020079m          (   91) SWSRHPKTGDWYPAINKPVGV  1 
+AT3G01720.1              (   89) SWSRHPKTGDWYPAINKPVGV  1 
+Medtr5g008210.1          (   73) YWAPNPHTGVFGPPGEHASGF  1 
+Oropetium_20150105_01571 (   64) YWGPHPKTGVFGPAAVDAARL  1 
+422367                   (   88) WWIRDPKTGFWVPEGYVASRY  1 
+Solyc06g072840.2.1       (   60) YWTPHPHTGVFGPATDHHIGI  1 
+Cucsa.129070.1           (   74) YWVPHPETGVFGPPKAHHNSS  1 
+AHYPO_009388-RA          (   66) YWSPNPNTGVFRPHSEHNTAV  1 
+LOC_Os03g42850.1         (   52) AWVPDHETGVFVPADKAAVSG  1 
+Carubv10012992m          (   93) SWSTHPKTGDWYPAINKPVGV  1 
+Oropetium_20150105_16922 (  101) AWVPDQDTGVFVPAEEAAAGN  1 
+Aco015985.1              (   39) YWGPHPETGVFGPAEPNSGST  1 
+Oropetium_20150105_05324 (   61) FWEPDPDTGFYRPSRAYKKLP  1 
+Pahal.J01012.1           (  101) AWVPDHETGVFVPAEEATGNG  1 
+99702                    (  479) SLVPDPASGTYRGAGRSLAVA  1 
+AL1G56960.t2             (  115) GWMLDSASGYYYNQTNGLHYD  1 
+Carubv10010124m          (   99) GWMLDSASGYYYNQTNGLHYD  1 
+Thhalv10011741m          (   99) DWVLDSASGYYYNQTNGLHYD  1 
+AT1G49590.1              (   99) DWMLDSASGYYYNQTNGLHYD  1 
+GSVIVT01030233001        (  135) PIVRHPQSGYGMPSNSTRRLD  1 
+LOC_Os12g14580.1         (  164) RLVRDPDTGIFVPELSRYERW  1 
+Carubv10027632m          (  573) TWALDPKSGINLPSSTRTVKA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif SWVPDPRTGYYRPENHEKEID MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 20 w= 21 n= 49338 bayes= 7.61035 E= 3.6e-2344 
+    41    162   -166   -173    176   -154   -218   -282   -490   -170    -99   -118    -35   -408   -342    187   -186   -327     60    256 
+  -992   -836  -1015  -1039   -657   -980   -926   -325  -1028   -300   -698   -969  -1020   -880   -988  -1026   -937   -817    551   -714 
+    52   -465   -769   -100   -481    -29   -644     78   -369   -266    258   -631   -730   -558   -367    -30   -182    279   -648   -553 
+  -529   -603   -644   -608   -676   -671   -643   -641   -181   -158   -653   -617    373   -490     97   -565   -330   -636   -816   -734 
+  -752   -769    343   -356   -869   -633    347   -937   -672   -931   -931     19   -812   -581   -766   -597   -646   -931   -984   -783 
+  -376   -591   -138    -27   -661   -304   -135   -630   -594   -622   -647   -609    380   -237   -631   -184   -545   -625   -811   -729 
+  -101   -588   -155    -54   -605   -172     11   -101    196   -577   -533    -78   -616    170    203   -475   -142    161   -706   -569 
+  -799   -780  -1010  -1058   -992   -881  -1004   -971  -1033  -1016   -968   -900   -983   -902  -1011    -19    420   -927  -1051  -1031 
+ -1178   -987  -1087  -1184  -1096    378  -1079  -1215  -1169  -1140  -1235  -1101  -1079  -1055  -1120  -1158  -1116  -1221  -1107  -1109 
+  -631    208   -136   -766     95   -766   -129    255   -746   -518   -508     88   -803   -624   -740   -683   -242    170   -624    310 
+  -978   -778   -995   -994    277   -406   -647   -804   -951   -758   -795   -316  -1000   -773   -903   -915   -889   -850    276    419 
+  -310   -466   -771   -692    161    132   -645     85   -104   -266    -53   -632   -731   -558    242   -608   -494     51   -649    209 
+  -633   -696   -750   -729   -781   -399   -764   -757   -723   -403   -773   -121    396   -625   -756   -671   -667   -749   -916   -843 
+   109   -584    -47    261   -601   -172   -260   -226    135   -574   -530   -421    -55     68   -168    -10   -298   -155   -703   -566 
+  -102   -613    -46   -195   -635    206   -178   -102   -310   -384   -569    304   -277   -356   -333     13    129   -609   -738   -597 
+  -100     94   -191     23    -40     41    253   -171   -234   -296   -529     15   -362    244    106    -96    -20     39   -135   -136 
+   124   -553    -62    208    170   -106     28   -547    -31   -204   -241    -77   -104     -9   -247      6    -20   -153   -640   -276 
+     2   -553     71     47   -280    -28     42   -547    139   -150   -241    154    -85     -9    -21    -26    -20   -153    163   -189 
+   -36   -553     42    236   -566   -288    -53   -170    -90   -368    -99   -141   -355     95   -315    -36   -140    218   -640   -538 
+   -54   -455    -22   -267   -470    -50   -585    275   -355    -48    314   -299   -277   -501   -216   -100    -35     81   -604    -63 
+    43   -154    327     91   -276   -144   -453   -303   -187   -361   -488    -52   -348     53   -244   -229   -174    -57   -226   -133 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif SWVPDPRTGYYRPENHEKEID MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 20 w= 21 nsites= 232 E= 3.6e-2344 
+ 0.125000  0.043103  0.017241  0.017241  0.112069  0.025862  0.004310  0.004310  0.000000  0.021552  0.012931  0.017241  0.051724  0.000000  0.004310  0.310345  0.012931  0.004310  0.034483  0.181034 
+ 0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.004310  0.000000  0.008621  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.987069  0.000000 
+ 0.129310  0.000000  0.000000  0.030172  0.000000  0.060345  0.000000  0.073276  0.004310  0.008621  0.159483  0.000000  0.000000  0.000000  0.004310  0.064655  0.012931  0.452586  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.017241  0.025862  0.000000  0.000000  0.827586  0.000000  0.125000  0.000000  0.004310  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.594828  0.004310  0.000000  0.000000  0.357759  0.000000  0.000000  0.000000  0.000000  0.043103  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000 
+ 0.004310  0.000000  0.021552  0.051724  0.000000  0.008621  0.012931  0.000000  0.000000  0.000000  0.000000  0.000000  0.875000  0.004310  0.000000  0.021552  0.000000  0.000000  0.000000  0.000000 
+ 0.043103  0.000000  0.017241  0.038793  0.000000  0.021552  0.034483  0.021552  0.245690  0.000000  0.000000  0.021552  0.000000  0.081897  0.254310  0.000000  0.017241  0.202586  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.068966  0.931034  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  0.000000  0.000000  1.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.056034  0.021552  0.000000  0.064655  0.000000  0.012931  0.258621  0.000000  0.000000  0.000000  0.073276  0.000000  0.000000  0.000000  0.000000  0.008621  0.211207  0.000000  0.293103 
+ 0.000000  0.000000  0.000000  0.000000  0.228448  0.004310  0.000000  0.000000  0.000000  0.000000  0.000000  0.004310  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.146552  0.616379 
+ 0.008621  0.000000  0.000000  0.000000  0.103448  0.185345  0.000000  0.077586  0.030172  0.008621  0.017241  0.000000  0.000000  0.000000  0.331897  0.000000  0.000000  0.090517  0.000000  0.146552 
+ 0.000000  0.000000  0.000000  0.000000  0.000000  0.004310  0.000000  0.000000  0.000000  0.004310  0.000000  0.017241  0.974138  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000 
+ 0.193966  0.000000  0.038793  0.375000  0.000000  0.021552  0.004310  0.008621  0.159483  0.000000  0.000000  0.000000  0.043103  0.038793  0.017241  0.073276  0.004310  0.021552  0.000000  0.000000 
+ 0.043103  0.000000  0.038793  0.012931  0.000000  0.310345  0.008621  0.021552  0.004310  0.004310  0.000000  0.331897  0.008621  0.000000  0.004310  0.086207  0.125000  0.000000  0.000000  0.000000 
+ 0.043103  0.025862  0.012931  0.068966  0.025862  0.099138  0.189655  0.012931  0.008621  0.008621  0.000000  0.043103  0.004310  0.137931  0.129310  0.038793  0.043103  0.086207  0.008621  0.012931 
+ 0.215903  0.000057  0.034719  0.258879  0.112214  0.034797  0.038931  0.000188  0.047681  0.017568  0.004424  0.021722  0.030440  0.021660  0.008883  0.082237  0.043322  0.021830  0.000093  0.004456 
+ 0.090903  0.000057  0.090753  0.082155  0.004455  0.060659  0.043241  0.000188  0.164060  0.026188  0.004424  0.116549  0.034750  0.021660  0.051986  0.064995  0.043322  0.021830  0.069059  0.008766 
+ 0.069351  0.000057  0.073512  0.314913  0.000145  0.008935  0.021689  0.013119  0.030439  0.004637  0.013044  0.013101  0.004578  0.047522  0.004573  0.060685  0.017459  0.302002  0.000093  0.000146 
+ 0.060731  0.000057  0.047650  0.008879  0.000145  0.052038  0.000138  0.297602  0.004577  0.052050  0.237182  0.004480  0.008888  0.000108  0.013193  0.039133  0.039011  0.112347  0.000093  0.021697 
+ 0.121461  0.004424  0.543575  0.112585  0.004600  0.026490  0.000275  0.004686  0.013465  0.004963  0.000227  0.026202  0.004846  0.034699  0.009145  0.013611  0.013367  0.043660  0.004496  0.013222 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif SWVPDPRTGYYRPENHEKEID MEME-1 regular expression
+--------------------------------------------------------------------------------
+SWVP[DH]P[RKV]TG[YIV][YF]RPE[NG]X[EA]X[EV][IM]D
+--------------------------------------------------------------------------------
+
+
+
+
+Time 145.50 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+406960                           3.69e-13  38_[1(4.39e-15)]_45
+422367                           6.14e-10  87_[1(5.12e-12)]_32
+170725                           3.96e-06  85_[1(4.95e-09)]_331_[1(2.37e-07)]_\
+    363
+evm.model.supercontig_9.         4.91e-18  65_[1(6.13e-20)]_14
+evm.model.supercontig_25         1.66e-15  56_[1(2.10e-17)]_22
+evm.model.supercontig_39         8.18e-12  63_[1(8.26e-14)]_35
+evm.model.supercontig_24         4.43e-19  43_[1(6.93e-21)]_20
+evm.model.supercontig_20         1.22e-20  57_[1(1.44e-22)]_27
+evm.model.supercontig_13         1.16e-06  89_[1(1.44e-09)]_342_[1(9.84e-09)]_\
+    349
+evm.model.supercontig_16         6.69e-15  68_[1(7.96e-17)]_15
+28152.m000891                    1.45e-18  66_[1(1.37e-20)]_39
+29726.m004064                    4.83e-17  60_[1(6.27e-19)]_16
+29308.m000187                    1.28e-15  53_[1(1.80e-17)]_17
+30063.m001427                    1.55e-16  18_[1(3.60e-18)]_24
+30073.m002221                    2.67e-12  73_[1(2.36e-14)]_39
+29986.m001632                    2.56e-19  62_[1(3.41e-21)]_12
+29633.m000895                    3.06e-06  84_[1(3.84e-09)]_342_[1(2.30e-08)]_\
+    349
+Cucsa.093870.1                   7.73e-11  55_[1(8.22e-13)]_38
+Cucsa.097030.1                   1.10e-13  76_[1(1.16e-15)]_18
+Cucsa.097040.1                   6.85e-19  34_[1(1.37e-20)]_15
+Cucsa.114640.1                   4.99e-12  58_[1(6.09e-14)]_23
+Cucsa.129070.1                   7.91e-10  73_[1(7.13e-12)]_37
+Cucsa.205500.1                   1.40e-19  71_[1(1.63e-21)]_14
+Cucsa.219260.1                   7.10e-16  38_[1(9.60e-18)]_35
+Cucsa.156180.1                   1.32e-06  91_[1(1.54e-09)]_394_[1(2.30e-08)]_\
+    352
+Cucsa.359830.1                   2.06e-14  56_[1(2.78e-16)]_17
+GSVIVT01028033001                3.89e-18  63_[1(4.98e-20)]_14
+GSVIVT01037872001                1.79e-17  53_[1(2.03e-19)]_34
+GSVIVT01030233001                1.40e-06  134_[1(2.44e-09)]_438
+GSVIVT01024455001                1.72e-11  69_[1(1.83e-13)]_24
+GSVIVT01037873001                3.36e-18  53_[1(4.04e-20)]_29
+GSVIVT01003968001                2.87e-06  91_[1(3.60e-09)]_342_[1(2.30e-08)]_\
+    343
+GSVIVT01037871001                1.04e-16  53_[1(7.53e-19)]_84
+orange1.1g047273m                1.53e-14  48_[1(1.85e-16)]_34
+orange1.1g034332m                5.43e-16  60_[1(6.96e-18)]_17
+orange1.1g034497m                9.01e-15  55_[1(1.22e-16)]_18
+orange1.1g040851m                7.74e-14  41_[1(1.31e-15)]_17
+orange1.1g034308m                2.41e-16  64_[1(3.05e-18)]_14
+orange1.1g033279m                1.75e-10  64_[1(1.68e-12)]_39
+orange1.1g041794m                2.95e-06  70_[1(3.84e-09)]_342_[1(1.53e-07)]_\
+    336
+AT5G17165.1                      1.94e-10  63_[1(2.00e-12)]_33
+AT3G03150.1                      9.32e-12  69_[1(9.14e-14)]_32
+AT4G02380.1                      6.80e-19  63_[1(8.72e-21)]_14
+AT3G19550.1                      1.39e-16  56_[1(1.53e-18)]_34
+AT3G53770.1                      2.20e-15  44_[1(1.23e-13)]_19_[1(2.10e-17)]_\
+    20
+AT1G49590.1                      2.30e-07  98_[1(1.03e-09)]_124
+AT4G15910.1                      3.06e-16  67_[1(3.60e-18)]_17
+AT1G73120.1                      1.39e-15  69_[1(1.54e-17)]_20
+AT3G01720.1                      2.21e-09  88_[1(2.83e-12)]_343_[1(2.30e-08)]_\
+    330
+AT1G02820.1                      3.12e-17  57_[1(4.34e-19)]_14
+Thhalv10010830m                  1.21e-12  44_[1(3.57e-06)]_16_[1(1.23e-14)]_\
+    17
+Thhalv10029091m                  6.54e-19  60_[1(8.72e-21)]_14
+Thhalv10021914m                  5.56e-16  60_[1(5.92e-18)]_33
+Thhalv10017419m                  1.61e-11  72_[1(1.50e-13)]_34
+Thhalv10009185m                  3.38e-17  63_[1(4.34e-19)]_14
+Thhalv10019346m                  1.39e-15  69_[1(1.54e-17)]_20
+Thhalv10026659m                  2.81e-16  60_[1(3.60e-18)]_17
+Thhalv10001120m                  4.44e-11  63_[1(6.25e-13)]_7
+Thhalv10011741m                  2.17e-07  98_[1(9.65e-10)]_126
+Thhalv10021768m                  8.76e-12  73_[1(8.26e-14)]_32
+Thhalv10020079m                  2.26e-09  90_[1(2.83e-12)]_344_[1(2.30e-08)]_\
+    343
+Thhalv10021904m                  6.08e-13  15_[1(9.80e-15)]_46
+Ciclev10023029m                  2.41e-16  64_[1(3.05e-18)]_14
+Ciclev10027008m                  1.16e-13  70_[1(1.31e-15)]_17
+Ciclev10027457m                  2.60e-13  46_[1(5.54e-15)]
+Ciclev10013115m                  1.75e-10  64_[1(1.68e-12)]_39
+Ciclev10026853m                  8.65e-15  52_[1(1.22e-16)]_18
+Ciclev10014283m                  3.08e-06  91_[1(3.84e-09)]_342_[1(1.53e-07)]_\
+    349
+Ciclev10029838m                  2.51e-14  101_[1(1.85e-16)]_34
+Ciclev10026814m                  9.90e-16  66_[1(1.13e-17)]_21
+Ciclev10006308m                  5.43e-16  60_[1(6.96e-18)]_17
+Carubv10014932m                  2.31e-11  70_[1(2.22e-13)]_33
+Carubv10014963m                  3.41e-14  58_[1(3.63e-16)]_35
+Carubv10002338m                  6.54e-19  60_[1(8.72e-21)]_14
+Carubv10021185m                  1.39e-15  69_[1(1.54e-17)]_20
+Carubv10006078m                  1.61e-16  69_[1(1.82e-18)]_18
+Carubv10019274m                  2.34e-13  49_[1(4.09e-11)]_21_[1(2.15e-15)]_\
+    17
+Carubv10010737m                  1.20e-16  63_[1(1.53e-18)]_14
+Carubv10012992m                  1.62e-08  92_[1(2.03e-11)]_343_[1(2.30e-08)]_\
+    341
+Carubv10010124m                  2.18e-07  98_[1(9.65e-10)]_127
+Carubv10002246m                  2.07e-10  81_[1(1.83e-12)]_31
+Carubv10027632m                  8.78e-06  572_[1(1.26e-08)]_125
+MDP0000324831                    1.91e-17  98_[1(1.67e-19)]_15
+MDP0000296095                    8.71e-11  67_[1(8.22e-13)]_38
+MDP0000808464                    8.15e-15  59_[1(1.06e-16)]_17
+MDP0000296346                    1.44e-11  67_[1(1.36e-13)]_38
+MDP0000134282                    1.26e-06  96_[1(1.54e-09)]_348_[1(2.30e-08)]_\
+    350
+MDP0000755567                    3.53e-16  69_[1(4.26e-18)]_13
+MDP0000130837                    5.63e-18  72_[1(4.98e-20)]_40
+MDP0000385497                    4.64e-17  60_[1(6.27e-19)]_13
+MDP0000564193                    5.21e-17  69_[1(6.27e-19)]_13
+MDP0000299069                    1.56e-19  82_[1(1.27e-21)]_40
+Lus10008169                      2.76e-15  48_[1(4.45e-17)]_13
+Lus10022961                      1.67e-16  49_[1(2.17e-18)]_27
+Lus10029634                      4.88e-14  56_[1(6.98e-16)]_13
+Lus10002115                      1.51e-16  [1(3.60e-18)]_41
+Lus10027987                      8.43e-16  50_[1(1.32e-17)]_13
+Lus10027986                      3.21e-17  60_[1(4.34e-19)]_13
+Lus10008170                      3.08e-17  57_[1(4.34e-19)]_13
+Lus10042672                      5.73e-16  56_[1(8.18e-18)]_13
+Lus10013901                      3.46e-16  54_[1(3.60e-18)]_41
+Lus10008759                      1.51e-11  78_[1(1.36e-13)]_32
+Lus10002114                      1.51e-16  [1(3.60e-18)]_41
+Lus10014878                      1.22e-06  91_[1(1.54e-09)]_343_[1(2.30e-08)]_\
+    336
+Lus10013900                      5.33e-16  66_[1(5.92e-18)]_23
+Lus10022320                      1.22e-06  91_[1(1.54e-09)]_343_[1(2.30e-08)]_\
+    336
+Lus10037497                      3.26e-12  72_[1(3.62e-14)]_17
+Lus10002135                      1.39e-11  65_[1(1.36e-13)]_36
+Lus10006508                      1.19e-14  56_[1(1.61e-16)]_17
+Potri.001G296900.1               1.94e-18  48_[1(2.13e-20)]_42
+Potri.010G248600.1               8.18e-16  76_[1(8.18e-18)]_23
+Potri.001G336400.1               3.01e-06  88_[1(3.84e-09)]_347_[1(2.30e-08)]_\
+    328
+Potri.T154700.1                  7.94e-16  73_[1(8.18e-18)]_23
+Potri.014G127700.1               9.39e-17  59_[1(1.29e-18)]_13
+Potri.002G203500.1               1.53e-18  58_[1(2.13e-20)]_13
+Potri.010G012100.1               5.25e-15  70_[1(5.96e-17)]_17
+Potri.009G091100.1               1.21e-16  71_[1(1.08e-18)]_40
+Potri.003G072000.1               5.65e-15  53_[1(7.96e-17)]_17
+Potri.013G081700.1               1.33e-11  68_[1(1.23e-13)]_39
+Gorai.013G049200.1               6.62e-18  48_[1(7.53e-20)]_39
+Gorai.004G052200.1               7.99e-19  59_[1(1.09e-20)]_13
+Gorai.011G191500.1               1.32e-16  68_[1(1.53e-18)]_17
+Gorai.002G009800.1               5.07e-16  56_[1(5.02e-18)]_44
+Gorai.004G090700.1               3.31e-18  67_[1(3.27e-20)]_33
+Gorai.003G051000.1               6.10e-11  69_[1(5.70e-13)]_37
+Gorai.004G142600.1               1.92e-14  65_[1(2.43e-16)]_13
+Gorai.010G173500.1               4.73e-16  48_[1(6.96e-18)]_19
+Gorai.009G122800.1               1.60e-16  53_[1(2.17e-18)]_20
+Gorai.006G037200.1               3.08e-06  89_[1(3.84e-09)]_342_[1(2.30e-08)]_\
+    351
+Gorai.004G090800.1               8.86e-19  67_[1(1.09e-20)]_13
+mrna28017.1-v1.0-hybrid          2.18e-06  65_[1(1.54e-09)]_311_[1(2.30e-08)]_\
+    1014
+mrna05456.1-v1.0-hybrid          3.75e-16  63_[1(3.60e-18)]_40
+mrna16573.1-v1.0-hybrid          1.97e-03  118_[1(6.33e-06)]_192
+mrna15876.1-v1.0-hybrid          1.03e-16  62_[1(1.29e-18)]_17
+mrna12618.1-v1.0-hybrid          2.09e-12  73_[1(1.90e-14)]_36
+mrna10617.1-v1.0-hybrid          1.92e-17  64_[1(2.46e-19)]_13
+mrna25582.1-v1.0-hybrid          2.89e-19  66_[1(2.68e-21)]_41
+mrna06837.1-v1.0-hybrid          1.29e-17  59_[1(1.67e-19)]_17
+27364                            8.91e-01  543
+99702                            1.01e-06  478_[1(9.02e-10)]_640
+Thecc1EG007188t1                 3.28e-16  49_[1(3.60e-18)]_41
+Thecc1EG029240t1                 4.59e-16  50_[1(6.96e-18)]_15
+Thecc1EG025370t1                 6.81e-12  89_[1(5.49e-14)]_34
+Thecc1EG027481t1                 1.02e-15  452_[1(2.17e-18)]_17
+Thecc1EG004676t1                 1.03e-18  61_[1(1.37e-20)]_13
+Thecc1EG021234t1                 3.06e-16  67_[1(3.60e-18)]_17
+Thecc1EG017059t1                 3.07e-06  89_[1(3.84e-09)]_342_[1(2.30e-08)]_\
+    348
+Thecc1EG016756t1                 4.59e-16  50_[1(6.96e-18)]_15
+Medtr8g022990.1                  6.38e-16  59_[1(8.18e-18)]_18
+Medtr4g120040.1                  2.26e-11  65_[1(2.69e-13)]_18
+Medtr5g005180.1                  1.97e-17  61_[1(2.46e-19)]_18
+Medtr1g088230.1                  6.75e-14  56_[1(9.00e-16)]_18
+Medtr7g108745.1                  3.69e-14  62_[1(4.73e-16)]_15
+Medtr6g022320.1                  1.47e-06  75_[1(1.54e-09)]_344_[1(2.30e-08)]_\
+    512
+Medtr5g008210.1                  3.45e-10  72_[1(3.08e-12)]_39
+Medtr7g108735.1                  3.95e-13  64_[1(4.93e-15)]_15
+Spipo0G0115200                   4.79e-11  75_[1(4.31e-13)]_35
+Spipo0G0181200                   4.82e-16  80_[1(5.02e-18)]_15
+Spipo0G0034500                   8.16e-15  53_[1(1.22e-16)]_13
+Spipo12G0032500                  2.48e-05  108_[1(2.75e-08)]_793
+Spipo2G0096000                   2.39e-18  29_[1(4.04e-20)]_29
+Spipo13G0039500                  5.72e-07  92_[1(3.60e-09)]_66
+evm_27.model.AmTr_v1.0_s         2.21e-16  67_[1(2.57e-18)]_18
+evm_27.model.AmTr_v1.0_s         1.15e-15  61_[1(1.54e-17)]_13
+evm_27.model.AmTr_v1.0_s         3.51e-15  60_[1(4.45e-17)]_18
+evm_27.model.AmTr_v1.0_s         4.89e-06  91_[1(3.60e-09)]_342_[1(2.30e-08)]_\
+    905
+evm_27.model.AmTr_v1.0_s         3.34e-19  50_[1(4.33e-21)]_26
+Pahal.J01851.1                   7.34e-15  64_[1(9.18e-17)]_15
+Pahal.E03496.1                   1.96e-12  263_[1(6.97e-15)]_17
+Pahal.E00451.1                   1.03e-06  117_[1(1.26e-09)]_342_[1(2.30e-08)]_\
+    333
+Pahal.C03304.1                   1.14e-13  59_[1(1.49e-15)]_17
+Pahal.G02159.1                   1.01e-11  64_[1(1.01e-13)]_35
+Pahal.E03121.1                   8.19e-17  59_[1(1.08e-18)]_16
+Pahal.E03122.1                   5.57e-16  64_[1(6.96e-18)]_15
+Pahal.A02181.1                   5.95e-13  53_[1(8.75e-15)]_14
+Pahal.C04115.1                   2.47e-16  39_[1(3.05e-18)]_41
+Pahal.J01012.1                   2.11e-08  100_[1(1.46e-10)]_44
+Pahal.B00630.1                   5.97e-16  59_[1(8.18e-18)]_13
+Pahal.F01830.1                   1.01e-13  61_[1(1.31e-15)]_15
+AHYPO_007836-RA                  5.64e-18  57_[1(7.53e-20)]_17
+AHYPO_019482-RA                  2.57e-06  39_[1(3.60e-09)]_343_[1(1.27e-05)]_\
+    309
+AHYPO_009388-RA                  8.21e-10  65_[1(7.74e-12)]_40
+AHYPO_009876-RA                  5.79e-18  59_[1(7.53e-20)]_17
+AHYPO_009391-RA                  2.67e-10  72_[1(2.38e-12)]_39
+AHYPO_011028-RA                  3.51e-06  93_[1(4.36e-09)]_343_[1(6.63e-06)]_\
+    347
+AHYPO_022193-RA                  1.11e-10  39_[1(1.41e-12)]_39
+Aco002475.1                      9.11e-16  66_[1(1.13e-17)]_14
+Aco001848.1                      1.46e-14  62_[1(1.85e-16)]_16
+Aco015985.1                      6.18e-09  38_[1(8.70e-11)]_32
+Aco023812.1                      1.04e-14  56_[1(9.85e-13)]_39_[1(7.96e-17)]_\
+    14
+Aco009514.1                      5.24e-16  46_[1(8.18e-18)]_17
+Aco009513.1                      6.27e-13  24_[1(1.53e-14)]_16
+Aco000096.1                      2.04e-17  62_[1(1.67e-19)]_59
+Aco017273.1                      1.12e-10  77_[1(9.00e-13)]_46
+Aco017275.1                      1.13e-10  77_[1(9.00e-13)]_48
+LOC_Os04g50970.1                 1.54e-10  63_[1(1.54e-12)]_36
+LOC_Os12g14580.1                 3.44e-06  163_[1(1.18e-08)]_127
+LOC_Os03g28260.1                 4.37e-13  112_[1(3.47e-15)]_13
+LOC_Os01g21250.1                 3.86e-17  54_[1(5.22e-19)]_19
+LOC_Os06g02410.1                 3.87e-10  85_[1(2.83e-12)]_51
+LOC_Os01g67750.1                 1.23e-06  90_[1(1.54e-09)]_342_[1(1.53e-07)]_\
+    341
+LOC_Os08g34990.1                 3.77e-13  70_[1(4.39e-15)]_15
+LOC_Os03g42850.1                 6.75e-10  51_[1(9.12e-12)]_22
+LOC_Os05g29930.1                 2.37e-13  59_[1(3.08e-15)]_17
+LOC_Os02g35650.1                 4.29e-15  57_[1(5.96e-17)]_14
+LOC_Os12g32290.1                 2.44e-16  39_[1(3.05e-18)]_40
+Zosma29g01580.1                  1.29e-10  56_[1(1.54e-12)]_27
+Zosma31g00380.1                  1.41e-10  65_[1(1.41e-12)]_34
+AL2G32870.t1                     4.00e-15  69_[1(4.45e-17)]_20
+AL6G28210.t1                     3.61e-11  67_[1(3.58e-13)]_33
+AL6G50740.t1                     6.54e-19  60_[1(8.72e-21)]_14
+AL1G56960.t2                     2.31e-07  114_[1(9.65e-10)]_124
+AL3G12760.t1                     1.85e-11  68_[1(1.83e-13)]_32
+AL3G10420.t1                     2.21e-09  88_[1(2.83e-12)]_343_[1(2.30e-08)]_\
+    327
+AL7G39360.t1                     3.06e-16  67_[1(3.60e-18)]_17
+AL1G12210.t1                     3.38e-17  63_[1(4.34e-19)]_14
+AL3G32960.t1                     8.58e-17  21_[1(1.53e-18)]_34
+AL5G34750.t1                     8.04e-15  44_[1(1.68e-12)]_19_[1(7.96e-17)]_\
+    16
+Tp57577_TGAC_v2_mRNA7764         3.80e-06  87_[1(4.65e-09)]_344_[1(2.30e-08)]_\
+    364
+Tp57577_TGAC_v2_mRNA3923         1.71e-11  69_[1(1.66e-13)]_33
+Tp57577_TGAC_v2_mRNA4114         3.23e-14  62_[1(4.14e-16)]_15
+Tp57577_TGAC_v2_mRNA9964         7.16e-15  62_[1(9.18e-17)]_15
+Tp57577_TGAC_v2_mRNA2669         4.59e-15  34_[1(9.18e-17)]_15
+Tp57577_TGAC_v2_mRNA8606         4.77e-15  60_[1(5.96e-17)]_19
+Tp57577_TGAC_v2_mRNA3510         6.02e-13  64_[1(7.82e-15)]_12
+Tp57577_TGAC_v2_mRNA2290         4.87e-15  37_[1(9.18e-17)]_15
+Oropetium_20150105_19777         2.09e-11  453_[1(4.46e-14)]_14
+Oropetium_20150105_02499         9.59e-13  55_[1(1.37e-14)]_14
+Oropetium_20150105_16922         4.06e-09  100_[1(2.78e-11)]_45
+Oropetium_20150105_09731         4.45e-11  60_[1(5.70e-13)]_17
+Oropetium_20150105_02166         1.97e-14  65_[1(2.43e-16)]_15
+Oropetium_20150105_18990         3.56e-05  93_[1(7.81e-08)]_362
+Oropetium_20150105_05324         6.46e-09  60_[1(1.01e-10)]_3
+Oropetium_20150105_01571         3.69e-10  63_[1(3.65e-12)]_37
+Oropetium_20150105_24186         6.73e-16  93_[1(5.02e-18)]_40
+DCAR_010550                      3.35e-12  67_[1(3.25e-14)]_35
+DCAR_005789                      2.69e-14  56_[1(3.63e-16)]_17
+DCAR_002964                      8.41e-06  89_[1(1.05e-08)]_343_[1(2.30e-08)]_\
+    349
+DCAR_005788                      4.41e-15  56_[1(5.96e-17)]_17
+DCAR_003609                      1.63e-13  19_[1(3.08e-15)]_33
+DCAR_001674                      6.92e-15  11_[1(1.61e-16)]_31
+DCAR_018327                      9.70e-16  45_[1(1.54e-17)]_17
+DCAR_003105                      1.54e-04  70_[1(9.34e-07)]_94
+DCAR_001679                      2.39e-15  59_[1(2.44e-17)]_38
+Solyc05g008260.2.1               1.38e-06  92_[1(1.54e-09)]_362_[1(2.30e-08)]_\
+    416
+Solyc01g107280.2.1               2.22e-15  53_[1(2.44e-17)]_37
+Solyc06g068660.2.1               1.02e-14  59_[1(1.22e-16)]_24
+Solyc06g009140.2.1               1.08e-20  57_[1(1.44e-22)]_17
+Solyc06g072840.2.1               5.44e-10  59_[1(6.04e-12)]_30
+Solyc08g074720.2.1               4.09e-18  64_[1(4.98e-20)]_17
+Solyc09g075210.2.1               1.74e-21  60_[1(2.23e-23)]_17
+Solyc03g096840.2.1               9.54e-11  70_[1(9.00e-13)]_35
+Bol006052                        3.92e-17  60_[1(5.22e-19)]_14
+Bol040777                        1.66e-15  64_[1(2.10e-17)]_14
+Bol030669                        4.71e-17  60_[1(6.27e-19)]_14
+Bol026294                        7.24e-15  70_[1(7.96e-17)]_20
+Bol010728                        2.22e-09  91_[1(2.83e-12)]_346_[1(2.30e-08)]_\
+    327
+Bol031020                        5.38e-16  57_[1(5.92e-18)]_33
+Bol018109                        3.01e-15  57_[1(3.30e-17)]_33
+Bol016554                        5.07e-18  40_[1(9.22e-20)]_14
+Bol034834                        8.83e-16  71_[1(9.60e-18)]_20
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because requested number of motifs (1) found.
+********************************************************************************
+
+CPU: socsvm
+
+********************************************************************************
